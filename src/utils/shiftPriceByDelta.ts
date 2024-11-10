@@ -1,7 +1,5 @@
-import { CurveType } from "@tensor-oss/tensorswap-sdk";
+import { CurveType, HUNDRED_PCT_BPS } from "@tensor-oss/tensorswap-sdk";
 import Big from "big.js";
-
-const HUNDRED_PCT_BPS = 100_00;
 
 export const shiftPriceByDelta = (
   curveType: CurveType,
