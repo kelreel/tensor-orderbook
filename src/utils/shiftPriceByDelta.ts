@@ -27,3 +27,13 @@ export const shiftPriceByDelta = (
       }
   }
 };
+
+export const shiftPriceByDeltaArr = (
+  curveType: CurveType,
+  startingPrice: Big,
+  delta: Big,
+  direction: "up" | "down",
+  times: number
+) => {
+  return Array.from({ length: times }, (_, i) => shiftPriceByDelta(curveType, startingPrice, delta, direction, i + 1));
+};

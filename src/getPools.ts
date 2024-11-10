@@ -1,5 +1,5 @@
 import { BN } from "@coral-xyz/anchor";
-import { getLamportsSolBalances, shiftPriceByDelta } from "./utils";
+import { getLamportsSolBalances, shiftPriceByDelta, shiftPriceByDeltaArr } from "./utils";
 import {
   castPoolConfigAnchor,
   computeMakerAmountCount,
@@ -23,6 +23,7 @@ export type BidPoolDataRaw = PoolAnchor & {
   initialPrice: BN;
   currentLowestBidPrice: any;
   currentHighestBidPrice: any;
+  steps: Big[];
 };
 
 export type BidPoolData = BidPoolDataRaw & {
@@ -33,6 +34,7 @@ export type BidPoolData = BidPoolDataRaw & {
     allowedCount: number;
     lastTransactedSeconds: number;
     totalAmount: number;
+    steps: number[];
   };
 };
 
@@ -44,7 +46,7 @@ export const getPools = async (
   bids: BidPoolData[];
   listings: PoolAnchor[];
 }> => {
-  const startDate = performance.now();
+  let startDate = performance.now();
   console.log("fetching pools...");
 
   const uuidArray = Buffer.from(COLLECTION_UUID.replaceAll("-", "")).toJSON().data;
@@ -68,9 +70,9 @@ export const getPools = async (
     .map((a) => swapSdk.decode(a.account as AccountInfo<Buffer>))
     .filter(Boolean) as unknown as TaggedTensorSwapPdaAnchor[];
 
-  const endDate = performance.now();
+  let endDate = performance.now();
 
-  console.log(`Found ${accounts.length} pools. (${Math.round(((endDate - startDate) / 1000) * 100) / 100} sec)`);
+  console.log(`found ${accounts.length} pools, took (${Math.round(((endDate - startDate) / 1000) * 100) / 100} sec)`);
 
   let rawBids: BidPoolDataRaw[] = [];
   let listings: PoolAnchor[] = [];
@@ -80,7 +82,15 @@ export const getPools = async (
     .filter((p) => p.account.config.poolType !== PoolTypeAnchor.NFT)
     .map(({ account }) => (account.margin !== null ? account.margin : account.solEscrow));
 
+  startDate = performance.now();
   const balances = await getLamportsSolBalances(bidPools);
+  endDate = performance.now();
+
+  console.log(
+    `fetched ${Object.keys(balances).length} balances, took (${
+      Math.round(((endDate - startDate) / 1000) * 100) / 100
+    } sec)`
+  );
 
   for (const { account: pool } of pools) {
     const config = castPoolConfigAnchor(pool.config);
@@ -142,6 +152,17 @@ export const getPools = async (
         allowedCount - 1 + pool.takerSellCount - pool.takerBuyCount
       );
 
+      const steps = [
+        new Big(initialPrice!.toNumber()),
+        ...shiftPriceByDeltaArr(
+          config.curveType,
+          startingPriceBidSide!,
+          config.delta,
+          "down",
+          allowedCount - 1 + pool.takerSellCount - pool.takerBuyCount
+        ),
+      ];
+
       // get the highest bid price by shifting up or down x times depending on how many bids already got fulfilled
       var currentHighestBidPrice =
         pool.takerSellCount - pool.takerBuyCount >= 0
@@ -167,6 +188,7 @@ export const getPools = async (
         initialPrice: initialPrice as BN,
         currentLowestBidPrice,
         currentHighestBidPrice,
+        steps,
       });
     }
   }
@@ -182,6 +204,7 @@ export const getPools = async (
       totalAmount: b.totalAmount.toNumber() / LAMPORTS_PER_SOL,
       allowedCount: b.allowedCount,
       lastTransactedSeconds: b.lastTransactedSeconds.toNumber(),
+      steps: b.steps.map((s) => s.toNumber() / LAMPORTS_PER_SOL),
     },
   }));
 

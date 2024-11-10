@@ -4,7 +4,7 @@ import { conn } from "../common";
 
 export const getLamportsSolBalances = async (accounts: PublicKey[]): Promise<Record<string, number>> => {
   // TODO: ensure we don't hit rate limits and filter duplicates
-  const chunks = chunkArrayInGroups(accounts, 99);
+  const chunks = chunkArrayInGroups(accounts, 100);
 
   const balancesArr: Array<AccountInfo<Buffer> & { pubkey: PublicKey }> = [];
   const balances: Record<string, number> = {};
