@@ -1,0 +1,29 @@
+{
+  "name": "tensor-orderbook",
+  "version": "0.0.0",
+  "description": "Tensor.trade orderbook",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "kelreel",
+  "license": "MIT",
+  "dependencies": {
+    "@coral-xyz/anchor": "^0.30.1",
+    "@solana/web3.js": "^1.93.2",
+    "@tensor-hq/tensor-common": "^8.0.8",
+    "@tensor-oss/tcomp-sdk": "^6.0.0",
+    "@tensor-oss/tensorswap-sdk": "^4.5.0",
+    "@types/big.js": "^6.2.2",
+    "big.js": "^6.2.2",
+    "borsh": "^2.0.0",
+    "bs58": "^6.0.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.9",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
+  }
+}
