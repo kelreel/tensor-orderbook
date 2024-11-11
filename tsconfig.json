@@ -11,7 +11,8 @@
     "rootDir": "./src"
   },
   "include": [
-    "src/**/*"
+    "src/**/*",
+    "examples/**/*"
   ],
   "exclude": [
     "node_modules"

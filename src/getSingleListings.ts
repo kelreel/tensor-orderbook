@@ -13,7 +13,7 @@ type Params = {
   COLLECTION_UUID: string;
 };
 
-type SingleListing = {
+export type SingleListing = {
   solPrice: number;
   pubkey: PublicKey;
 };
@@ -70,6 +70,10 @@ export const getSingleListings = async ({
   );
 
   startDate = performance.now();
+
+  // TODO: ensure and fetch only used mints
+  // see https://discord.com/channels/953488546608599071/1032404803365642331/1305642380325556365
+
   const nftMints = new Set(await getAllMints(collectionAccount));
   const filteredListingAccounts = listingAccounts.filter(
     (acc) => acc.name === "singleListing" && nftMints.has(acc.account.nftMint.toBase58())
@@ -86,7 +90,3 @@ export const getSingleListings = async ({
     .map((a) => ({ pubkey: a.pubkey, solPrice: a.account.price.toNumber() / LAMPORTS_PER_SOL }))
     .sort((a, b) => a.solPrice - b.solPrice);
 };
-
-getSingleListings({ conn, swapSdk, wlSdk, COLLECTION_UUID: "bd366797-5599-417a-be03-1e43a7e3fb90" }).then((data) => {
-  writeFile(`./listings-${new Date().toISOString()}.json`, JSON.stringify(data, null, 2), (err) => {});
-});

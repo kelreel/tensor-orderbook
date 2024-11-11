@@ -9,15 +9,15 @@ import {
   PoolAnchor,
   PoolType,
   PoolTypeAnchor,
-  TaggedTensorSwapPdaAnchor,
   TakerSide,
   TensorSwapSDK,
 } from "@tensor-oss/tensorswap-sdk";
 import Big from "big.js";
 import { TSWAP_PROGRAM_ID } from "@tensor-hq/tensor-common";
-import { AccountInfo, Connection, LAMPORTS_PER_SOL } from "@solana/web3.js";
+import { AccountInfo, Connection, LAMPORTS_PER_SOL, PublicKey } from "@solana/web3.js";
 
 export type BidPoolDataRaw = PoolAnchor & {
+  pubkey: PublicKey;
   allowedCount: number;
   totalAmount: BN;
   initialPrice: BN;
@@ -54,7 +54,7 @@ export const getPools = async (
 
   console.log("whitelist", whitelist.toBase58());
 
-  const accounts = (
+  const pools = (
     await conn.getParsedProgramAccounts(TSWAP_PROGRAM_ID, {
       filters: [
         {
@@ -69,24 +69,35 @@ export const getPools = async (
       ],
     })
   )
-    .map((a) => swapSdk.decode(a.account as AccountInfo<Buffer>))
-    .filter(Boolean) as unknown as TaggedTensorSwapPdaAnchor[];
+    .map((a) => {
+      const decoded = swapSdk.decode(a.account as AccountInfo<Buffer>);
+      if (!decoded) {
+        return null;
+      }
+      return {
+        ...decoded,
+        pubkey: a.pubkey,
+      };
+    })
+    .filter((a) => a?.name === "pool") as unknown as {
+    name: "pool";
+    account: PoolAnchor;
+    pubkey: PublicKey;
+  }[];
 
   let endDate = performance.now();
 
-  console.log(`found ${accounts.length} pools, took (${Math.round(((endDate - startDate) / 1000) * 100) / 100} sec)`);
+  console.log(`found ${pools.length} pools, took (${Math.round(((endDate - startDate) / 1000) * 100) / 100} sec)`);
 
   let rawBids: BidPoolDataRaw[] = [];
   let listings: PoolAnchor[] = [];
 
-  const pools = accounts.filter((a) => a.name === "pool");
-
-  const bidPools = pools
+  const bidSolAccounts = pools
     .filter((p) => p.account.config.poolType !== PoolTypeAnchor.NFT)
     .map(({ account }) => (account.margin !== null ? account.margin : account.solEscrow));
 
   startDate = performance.now();
-  const balances = await getLamportsSolBalances(bidPools, conn);
+  const balances = await getLamportsSolBalances(bidSolAccounts, conn);
   endDate = performance.now();
 
   console.log(
@@ -95,7 +106,7 @@ export const getPools = async (
     } sec)`
   );
 
-  for (const { account: pool } of pools) {
+  for (const { account: pool, pubkey } of pools) {
     const config = castPoolConfigAnchor(pool.config);
 
     if (config.poolType === PoolType.NFT) {
@@ -185,6 +196,7 @@ export const getPools = async (
             );
 
       rawBids.push({
+        pubkey,
         ...pool,
         allowedCount,
         totalAmount,
@@ -198,18 +210,20 @@ export const getPools = async (
 
   console.log(`Processed ${rawBids.length} bids, ${listings.length} listings`);
 
-  const bids = rawBids.map((b) => ({
-    ...b,
-    nums: {
-      initialPrice: b.initialPrice.toNumber() / LAMPORTS_PER_SOL,
-      currentHighestBidPrice: b.currentHighestBidPrice.toNumber() / LAMPORTS_PER_SOL,
-      currentLowestBidPrice: b.currentLowestBidPrice.toNumber() / LAMPORTS_PER_SOL,
-      totalAmount: b.totalAmount.toNumber() / LAMPORTS_PER_SOL,
-      allowedCount: b.allowedCount,
-      lastTransactedSeconds: b.lastTransactedSeconds.toNumber(),
-      steps: b.steps.map((s) => s.toNumber() / LAMPORTS_PER_SOL),
-    },
-  }));
+  const bids = rawBids
+    .map((b) => ({
+      ...b,
+      nums: {
+        initialPrice: b.initialPrice.toNumber() / LAMPORTS_PER_SOL,
+        currentHighestBidPrice: b.currentHighestBidPrice.toNumber() / LAMPORTS_PER_SOL,
+        currentLowestBidPrice: b.currentLowestBidPrice.toNumber() / LAMPORTS_PER_SOL,
+        totalAmount: b.totalAmount.toNumber() / LAMPORTS_PER_SOL,
+        allowedCount: b.allowedCount,
+        lastTransactedSeconds: b.lastTransactedSeconds.toNumber(),
+        steps: b.steps.map((s) => s.toNumber() / LAMPORTS_PER_SOL),
+      },
+    }))
+    .sort((a, b) => b.nums.initialPrice - a.nums.initialPrice);
 
   return { bids, listings };
 };

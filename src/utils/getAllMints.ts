@@ -26,8 +26,6 @@ export const getAllMints = async (collectionAccount: PublicKey) => {
     });
 
     nftMints.push(...chunk.items.map((a) => a.id));
-    console.log(chunk.total, chunk.limit);
-
     console.log(`[DAS-API] fetched NFTs mints: ${nftMints.length}, (page: ${page})`);
   }
 
