@@ -52,6 +52,8 @@ export const getPools = async (
   const uuidArray = Buffer.from(COLLECTION_UUID.replaceAll("-", "")).toJSON().data;
   const whitelist = findWhitelistPDA({ uuid: uuidArray })[0];
 
+  console.log("whitelist", whitelist.toBase58());
+
   const accounts = (
     await conn.getParsedProgramAccounts(TSWAP_PROGRAM_ID, {
       filters: [
@@ -78,12 +80,13 @@ export const getPools = async (
   let listings: PoolAnchor[] = [];
 
   const pools = accounts.filter((a) => a.name === "pool");
+
   const bidPools = pools
     .filter((p) => p.account.config.poolType !== PoolTypeAnchor.NFT)
     .map(({ account }) => (account.margin !== null ? account.margin : account.solEscrow));
 
   startDate = performance.now();
-  const balances = await getLamportsSolBalances(bidPools);
+  const balances = await getLamportsSolBalances(bidPools, conn);
   endDate = performance.now();
 
   console.log(

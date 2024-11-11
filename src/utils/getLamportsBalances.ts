@@ -1,8 +1,10 @@
-import { Account, AccountInfo, LAMPORTS_PER_SOL, PublicKey } from "@solana/web3.js";
+import { Account, AccountInfo, Connection, LAMPORTS_PER_SOL, PublicKey } from "@solana/web3.js";
 import { chunkArrayInGroups } from "./array";
-import { conn } from "../common";
 
-export const getLamportsSolBalances = async (accounts: PublicKey[]): Promise<Record<string, number>> => {
+export const getLamportsSolBalances = async (
+  accounts: PublicKey[],
+  conn: Connection
+): Promise<Record<string, number>> => {
   // TODO: ensure we don't hit rate limits and filter duplicates
   const chunks = chunkArrayInGroups(accounts, 100);
 
