@@ -1,7 +1,6 @@
 import { writeFile } from "fs";
 import { makeCollectionOrderbook } from "../src";
 import { conn, swapSdk, wlSdk } from "../src/common";
-
 require("dotenv").config();
 
 const MADLADS_UUID = "bd366797-5599-417a-be03-1e43a7e3fb90";
