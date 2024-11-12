@@ -7,6 +7,8 @@ import {
   findWhitelistPDA,
   HUNDRED_PCT_BPS,
   PoolAnchor,
+  PoolConfigAnchor,
+  PoolStatsAnchor,
   PoolType,
   PoolTypeAnchor,
   TakerSide,
@@ -16,26 +18,26 @@ import Big from "big.js";
 import { TSWAP_PROGRAM_ID } from "@tensor-hq/tensor-common";
 import { AccountInfo, Connection, LAMPORTS_PER_SOL, PublicKey } from "@solana/web3.js";
 
-export type BidPoolDataRaw = PoolAnchor & {
+export type PoolBid = {
   pubkey: PublicKey;
-  allowedCount: number;
-  totalAmount: BN;
-  initialPrice: BN;
-  currentLowestBidPrice: any;
-  currentHighestBidPrice: any;
-  steps: Big[];
-};
+  owner: PublicKey;
+  createdUnixSeconds: number;
+  lastTransactedSeconds: number;
+  takerSellCount: number;
+  takerBuyCount: number;
+  nftsHeld: number;
+  nftAuthority: PublicKey;
+  stats: PoolStatsAnchor;
+  margin: PublicKey | null;
+  //
+  poolConfig: PoolConfigAnchor;
+  allowedCount: number; // nfts count allowed to buy
+  totalAmount: number; // total bid SOL amount
+  initialPrice: number; // initial bid side price
+  currentHighestBidPrice: number;
+  currentLowestBidPrice: number;
 
-export type BidPoolData = BidPoolDataRaw & {
-  nums: {
-    initialPrice: number;
-    currentHighestBidPrice: number;
-    currentLowestBidPrice: number;
-    allowedCount: number;
-    lastTransactedSeconds: number;
-    totalAmount: number;
-    steps: number[];
-  };
+  steps: number[];
 };
 
 export const getPools = async (
@@ -43,16 +45,16 @@ export const getPools = async (
   swapSdk: TensorSwapSDK,
   collectionUuid: string
 ): Promise<{
-  bids: BidPoolData[];
+  bids: PoolBid[];
   listings: PoolAnchor[];
 }> => {
   let startDate = performance.now();
-  console.log("fetching pools...");
 
   const uuidArray = Buffer.from(collectionUuid.replaceAll("-", "")).toJSON().data;
   const whitelist = findWhitelistPDA({ uuid: uuidArray })[0];
 
-  console.log("Whitelist: ", whitelist.toBase58());
+  console.log("Whitelist:", whitelist.toBase58());
+  console.log("Fetching pools...");
 
   const pools = (
     await conn.getParsedProgramAccounts(TSWAP_PROGRAM_ID, {
@@ -93,22 +95,14 @@ export const getPools = async (
     } sec)`
   );
 
-  let rawBids: BidPoolDataRaw[] = [];
+  let bids: PoolBid[] = [];
   let listings: PoolAnchor[] = [];
 
-  const bidSolAccounts = pools
+  const poolSolAccounts = pools
     .filter((p) => p.account.config.poolType !== PoolTypeAnchor.NFT)
     .map(({ account }) => (account.margin !== null ? account.margin : account.solEscrow));
 
-  startDate = performance.now();
-  const balances = await getLamportsSolBalances(bidSolAccounts, conn);
-  endDate = performance.now();
-
-  console.log(
-    `[Pools parsing] Fetched ${Object.keys(balances).length} balances, took (${
-      Math.round(((endDate - startDate) / 1000) * 100) / 100
-    } sec)`
-  );
+  const balances = await getLamportsSolBalances(poolSolAccounts, conn);
 
   for (const { account: pool, pubkey } of pools) {
     const config = castPoolConfigAnchor(pool.config);
@@ -120,11 +114,11 @@ export const getPools = async (
 
       // retrieve amount of possible bids, total lamports needed for that amount of bids and initial price of the pool
       const { allowedCount, totalAmount, initialPrice } = computeMakerAmountCount({
+        config,
         desired: { total: new BN(balances[solBalanceAccount.toBase58()]) },
         maxCountWhenInfinite: 1000,
         takerSide: TakerSide.Sell,
         extraNFTsSelected: 0,
-        config,
         takerSellCount: pool.takerSellCount,
         takerBuyCount: pool.takerBuyCount,
         maxTakerSellCount: pool.maxTakerSellCount,
@@ -133,8 +127,15 @@ export const getPools = async (
         marginated: pool.margin !== null,
       });
 
-      // return early if amount of possible bids is 0
-      if (allowedCount == 0) {
+      const minPriceLamports = 0.005 * LAMPORTS_PER_SOL;
+
+      // return early if amount of possible bids is 0 or very small price
+      if (
+        !allowedCount ||
+        !initialPrice ||
+        totalAmount.toNumber() < minPriceLamports ||
+        initialPrice.toNumber() < minPriceLamports
+      ) {
         continue;
       }
 
@@ -170,17 +171,21 @@ export const getPools = async (
         allowedCount - 1 + pool.takerSellCount - pool.takerBuyCount
       );
 
-      // TODO: refactor, get rid of this
-      const steps = [
-        new Big(initialPrice!.toNumber()),
+      let steps = [
+        initialPrice!.toNumber() / LAMPORTS_PER_SOL,
         ...shiftPriceByDeltaArr(
           config.curveType,
           startingPriceBidSide!,
           config.delta,
           "down",
           allowedCount - 1 + pool.takerSellCount - pool.takerBuyCount
-        ),
+        ).map((p) => p.toNumber() / LAMPORTS_PER_SOL),
       ];
+
+      if (steps.length > 10 && steps[10] < minPriceLamports / LAMPORTS_PER_SOL) {
+        // prevent too long small stairs
+        steps = steps.slice(0, 10);
+      }
 
       // get the highest bid price by shifting up or down x times depending on how many bids already got fulfilled
       var currentHighestBidPrice =
@@ -200,35 +205,33 @@ export const getPools = async (
               (pool.takerSellCount - pool.takerBuyCount) * -1
             );
 
-      rawBids.push({
+      bids.push({
         pubkey,
-        ...pool,
+        createdUnixSeconds: pool.createdUnixSeconds.toNumber(),
+        lastTransactedSeconds: pool.lastTransactedSeconds.toNumber(),
+        owner: pool.owner,
+        takerSellCount: pool.takerSellCount,
+        takerBuyCount: pool.takerBuyCount,
+        nftsHeld: pool.nftsHeld,
+        nftAuthority: pool.nftAuthority,
+        stats: pool.stats,
+        margin: pool.margin,
+        poolConfig: pool.config,
+        ///
         allowedCount,
-        totalAmount,
-        initialPrice: initialPrice as BN,
-        currentLowestBidPrice,
-        currentHighestBidPrice,
+        totalAmount: totalAmount.toNumber() / LAMPORTS_PER_SOL,
+        initialPrice: initialPrice!.toNumber() / LAMPORTS_PER_SOL,
+        currentLowestBidPrice: currentLowestBidPrice.toNumber() / LAMPORTS_PER_SOL,
+        currentHighestBidPrice: currentHighestBidPrice.toNumber() / LAMPORTS_PER_SOL,
+        ///
         steps,
       });
     }
   }
 
-  console.log(`Processed ${rawBids.length} bids, ${listings.length} listings`);
+  bids.sort((a, b) => b.initialPrice - a.initialPrice);
 
-  const bids = rawBids
-    .map((b) => ({
-      ...b,
-      nums: {
-        initialPrice: b.initialPrice.toNumber() / LAMPORTS_PER_SOL,
-        currentHighestBidPrice: b.currentHighestBidPrice.toNumber() / LAMPORTS_PER_SOL,
-        currentLowestBidPrice: b.currentLowestBidPrice.toNumber() / LAMPORTS_PER_SOL,
-        totalAmount: b.totalAmount.toNumber() / LAMPORTS_PER_SOL,
-        allowedCount: b.allowedCount,
-        lastTransactedSeconds: b.lastTransactedSeconds.toNumber(),
-        steps: b.steps.map((s) => s.toNumber() / LAMPORTS_PER_SOL),
-      },
-    }))
-    .sort((a, b) => b.nums.initialPrice - a.nums.initialPrice);
+  console.log(`Processed ${bids.length} bids, ${listings.length} listings`);
 
   return { bids, listings };
 };

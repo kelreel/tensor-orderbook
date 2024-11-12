@@ -50,6 +50,7 @@ type Order = GroupedOrder & {
 ### Roadmap
  - [x] Fetch collection bids, listings and floor price
  - [x] Collection orderbook init from scratch (up to ~1min)
+ - [ ] Optionally hide trait bids
  - [ ] Processing of NFTs purchases and sales based on onchain data
  - [ ] Ensure MM orders (pools)
  - [ ] Release as NPM package *

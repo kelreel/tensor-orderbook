@@ -12,12 +12,9 @@ const main = async () => {
     withListings: false,
   });
 
-  console.log(orderbook.bids.slice(0, 40));
-  console.log(orderbook.groupedBids.slice(0, 40));
+  console.log(`Top Bids:`, orderbook.groupedBids);
 
-  console.log(`Floor: ${orderbook.minAskPrice}, top bid: ${orderbook.maxBidPrice}, spread: ${orderbook.spread} SOL`);
-
-  writeFile("./orderbook.json", JSON.stringify(orderbook, null, 2), (err) => {});
+  writeFile("./examples/bids-orderbook.json", JSON.stringify(orderbook, null, 2), (err) => {});
 };
 
 main();

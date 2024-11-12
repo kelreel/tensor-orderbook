@@ -2,17 +2,21 @@ import { Connection, PublicKey } from "@solana/web3.js";
 import { TensorSwapSDK, TensorWhitelistSDK } from "@tensor-oss/tensorswap-sdk";
 import { getPools } from "./getPools";
 import { getSingleListings, SingleListing } from "./getSingleListings";
+import { writeFile } from "fs";
 
 type OrderType = "bid" | "ask";
 
 type GroupedOrder = {
   price: number;
-  amount: number;
+  nftCount: number;
   type: OrderType;
 };
 
-type Order = GroupedOrder & {
+type Order = {
   pubkey: PublicKey;
+  initialPrice: number;
+  nftCount: number;
+  type: OrderType;
 };
 
 type Orderbook = {
@@ -42,74 +46,74 @@ export const makeCollectionOrderbook = async ({
   withListings = false,
   precision = 0.001,
 }: Params): Promise<Orderbook> => {
-  // TODO: also use mm orders (pools)
+  // TODO: also use mm orders from pools
   const { bids } = await getPools(conn, swapSdk, collectionUuid);
+
+  writeFile("./bids.json", JSON.stringify(bids, null, 2), (err) => {});
 
   let listings: SingleListing[] = [];
   if (withListings) {
     listings = await getSingleListings({ conn, swapSdk, wlSdk, collectionUuid: collectionUuid });
   }
 
-  const groupedBidOrders: Record<number, number> = {};
-  const groupedAskOrders: Record<number, number> = {};
+  const groupedBidOrders = new Map<number, number>();
+  const groupedAskOrders = new Map<number, number>();
 
   bids.forEach((bid) => {
-    bid.nums.steps.forEach((price) => {
+    bid.steps.forEach((price) => {
       price = Math.round((price * 1) / precision) / (1 / precision);
-      if (groupedBidOrders[price]) {
-        groupedBidOrders[price] += 1;
+      if (groupedBidOrders.has(price)) {
+        groupedBidOrders.set(price, groupedBidOrders.get(price)! + 1);
       } else {
-        groupedBidOrders[price] = 1;
+        groupedBidOrders.set(price, 1);
       }
     });
   });
 
   listings.forEach(({ solPrice }) => {
     const price = Math.round((solPrice * 1) / precision) / (1 / precision);
-    if (groupedAskOrders[price]) {
-      groupedAskOrders[price] += 1;
+    if (groupedAskOrders.has(price)) {
+      groupedAskOrders.set(price, groupedAskOrders.get(price)! + 1);
     } else {
-      groupedAskOrders[price] = 1;
+      groupedAskOrders.set(price, 1);
     }
   });
 
-  const groupedBids = Object.entries(groupedBidOrders)
-    .sort((a, b) => b[1] - a[1])
-    .map(([price, amount]) => ({
-      price: Number(price),
-      amount,
-      type: "bid" as OrderType,
-    }));
+  const groupedBids = [...groupedBidOrders.entries()].map(([price, nftCount]) => ({
+    price,
+    nftCount,
+    type: "bid" as OrderType,
+  }));
+  groupedBids.sort((a, b) => b.price - a.price);
 
-  const groupedAsks = Object.entries(groupedAskOrders)
-    .sort((a, b) => a[1] - b[1])
-    .map(([price, amount]) => ({
-      price: Number(price),
-      amount,
-      type: "ask" as OrderType,
-    }));
+  const groupedAsks = [...groupedAskOrders.entries()].map(([price, nftCount]) => ({
+    price,
+    nftCount,
+    type: "ask" as OrderType,
+  }));
+  groupedAsks.sort((a, b) => a.price - b.price);
 
   const maxBidPrice = groupedBids[0]?.price;
   const minAskPrice = groupedAsks[0]?.price || 0;
   const spread = minAskPrice ? minAskPrice - maxBidPrice : 0;
 
   return {
+    spread,
+    minAskPrice,
+    maxBidPrice,
     groupedBids,
     groupedAsks,
     bids: bids.map((bid) => ({
-      type: "bid",
       pubkey: bid.pubkey,
-      price: bid.nums.initialPrice,
-      amount: bid.nums.totalAmount,
+      initialPrice: bid.initialPrice,
+      nftCount: bid.allowedCount,
+      type: "bid",
     })),
     asks: listings.map((listing) => ({
-      type: "ask",
       pubkey: listing.pubkey,
-      price: listing.solPrice,
-      amount: 1,
+      initialPrice: listing.solPrice,
+      nftCount: 1,
+      type: "ask",
     })),
-    maxBidPrice,
-    minAskPrice,
-    spread,
   };
 };
