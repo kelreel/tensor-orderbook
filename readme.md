@@ -3,7 +3,7 @@
 Make TensorSwap orderbook from onchain data (without Tensor API key) with NodeJS.
 
 <div align="center">
-  <img width="200px" src="./chart.gif" alt="chart">
+  <img width="200px" src="./docs/chart.gif" alt="chart">
 </div>
 <br />
 
@@ -38,14 +38,22 @@ type Orderbook = {
 
 type GroupedOrder = {
   price: number;
-  amount: number;
+  nftCount: number;
   type: "bid" | "ask";
 };
 
-type Order = GroupedOrder & {
+type Order = {
   pubkey: PublicKey;
+  initialPrice: number;
+  nftCount: number;
+  type: OrderType;
 };
 ```
+
+<!-- <div align="center">
+  <img width="360px" src="./docs/screen1.png" alt="orderbook">
+</div>
+<br /> -->
 
 ### Roadmap
  - [x] Fetch collection bids, listings and floor price
