@@ -77,22 +77,22 @@ export const makeCollectionOrderbook = async ({
   const groupedBids = Object.entries(groupedBidOrders)
     .sort((a, b) => b[1] - a[1])
     .map(([price, amount]) => ({
-      price: parseFloat(price),
-      amount: amount,
+      price: Number(price),
+      amount,
       type: "bid" as OrderType,
     }));
 
   const groupedAsks = Object.entries(groupedAskOrders)
     .sort((a, b) => a[1] - b[1])
     .map(([price, amount]) => ({
-      price: parseFloat(price),
-      amount: amount,
+      price: Number(price),
+      amount,
       type: "ask" as OrderType,
     }));
 
-  const maxBidPrice = groupedBids[0]?.price;
-  const minAskPrice = groupedAsks[0]?.price;
-  const spread = groupedBids[0].price - groupedAsks[0].price;
+  const maxBidPrice = groupedBids[0].price;
+  const minAskPrice = groupedAsks[0].price || 0;
+  const spread = minAskPrice ? minAskPrice - maxBidPrice : 0;
 
   return {
     groupedBids,

@@ -166,6 +166,7 @@ export const getPools = async (
         allowedCount - 1 + pool.takerSellCount - pool.takerBuyCount
       );
 
+      // TODO: refactor, get rid of this
       const steps = [
         new Big(initialPrice!.toNumber()),
         ...shiftPriceByDeltaArr(
