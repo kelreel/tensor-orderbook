@@ -1,8 +1,6 @@
 import { AccountInfo, Connection, LAMPORTS_PER_SOL, PublicKey } from "@solana/web3.js";
 import { TSWAP_PROGRAM_ID } from "@tensor-hq/tensor-common";
 import { SingleListingAnchor, TensorSwapSDK, TensorWhitelistSDK } from "@tensor-oss/tensorswap-sdk";
-import { writeFile } from "fs";
-import { conn, swapSdk, wlSdk } from "./common";
 import { getCollectionAccountFromUuid } from "./utils";
 import { getAllMints } from "./utils/getAllMints";
 
@@ -10,7 +8,7 @@ type Params = {
   conn: Connection;
   swapSdk: TensorSwapSDK;
   wlSdk: TensorWhitelistSDK;
-  COLLECTION_UUID: string;
+  collectionUuid: string;
 };
 
 export type SingleListing = {
@@ -18,18 +16,13 @@ export type SingleListing = {
   pubkey: PublicKey;
 };
 
-export const getSingleListings = async ({
-  conn,
-  swapSdk,
-  wlSdk,
-  COLLECTION_UUID,
-}: Params): Promise<SingleListing[]> => {
+export const getSingleListings = async ({ conn, swapSdk, wlSdk, collectionUuid }: Params): Promise<SingleListing[]> => {
   let startDate = performance.now();
-  const collectionAccount = await getCollectionAccountFromUuid(COLLECTION_UUID, wlSdk);
+  const collectionAccount = await getCollectionAccountFromUuid(collectionUuid, wlSdk);
   console.log(`Collection acc: ${collectionAccount?.toBase58()}`);
 
   if (!collectionAccount) {
-    throw new Error(`Collection account not found for uuid ${COLLECTION_UUID}`);
+    throw new Error(`Collection account not found for uuid ${collectionUuid}`);
   }
 
   console.log("fetching listings... it may take a while");

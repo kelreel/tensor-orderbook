@@ -1,0 +1,1263 @@
+{
+  "groupedBids": [
+    {
+      "price": 0,
+      "amount": 4257,
+      "type": "bid"
+    },
+    {
+      "price": 1,
+      "amount": 893,
+      "type": "bid"
+    },
+    {
+      "price": 25,
+      "amount": 16,
+      "type": "bid"
+    },
+    {
+      "price": 31.99,
+      "amount": 12,
+      "type": "bid"
+    },
+    {
+      "price": 33.68,
+      "amount": 11,
+      "type": "bid"
+    },
+    {
+      "price": 34.4,
+      "amount": 10,
+      "type": "bid"
+    },
+    {
+      "price": 10,
+      "amount": 7,
+      "type": "bid"
+    },
+    {
+      "price": 33.03,
+      "amount": 7,
+      "type": "bid"
+    },
+    {
+      "price": 24,
+      "amount": 5,
+      "type": "bid"
+    },
+    {
+      "price": 30,
+      "amount": 5,
+      "type": "bid"
+    },
+    {
+      "price": 28,
+      "amount": 4,
+      "type": "bid"
+    },
+    {
+      "price": 29,
+      "amount": 4,
+      "type": "bid"
+    },
+    {
+      "price": 32,
+      "amount": 4,
+      "type": "bid"
+    },
+    {
+      "price": 33.64,
+      "amount": 4,
+      "type": "bid"
+    },
+    {
+      "price": 33.22,
+      "amount": 4,
+      "type": "bid"
+    },
+    {
+      "price": 33.11,
+      "amount": 4,
+      "type": "bid"
+    },
+    {
+      "price": 32.95,
+      "amount": 4,
+      "type": "bid"
+    },
+    {
+      "price": 31.98,
+      "amount": 4,
+      "type": "bid"
+    },
+    {
+      "price": 0.01,
+      "amount": 4,
+      "type": "bid"
+    },
+    {
+      "price": 34.5,
+      "amount": 3,
+      "type": "bid"
+    },
+    {
+      "price": 34.03,
+      "amount": 3,
+      "type": "bid"
+    },
+    {
+      "price": 34.02,
+      "amount": 3,
+      "type": "bid"
+    },
+    {
+      "price": 33.8,
+      "amount": 3,
+      "type": "bid"
+    },
+    {
+      "price": 32.96,
+      "amount": 3,
+      "type": "bid"
+    },
+    {
+      "price": 32.5,
+      "amount": 3,
+      "type": "bid"
+    },
+    {
+      "price": 32.49,
+      "amount": 3,
+      "type": "bid"
+    },
+    {
+      "price": 31.73,
+      "amount": 3,
+      "type": "bid"
+    },
+    {
+      "price": 34.01,
+      "amount": 2,
+      "type": "bid"
+    },
+    {
+      "price": 32.08,
+      "amount": 2,
+      "type": "bid"
+    },
+    {
+      "price": 32.01,
+      "amount": 2,
+      "type": "bid"
+    },
+    {
+      "price": 30.5,
+      "amount": 2,
+      "type": "bid"
+    },
+    {
+      "price": 30.1,
+      "amount": 2,
+      "type": "bid"
+    },
+    {
+      "price": 27.5,
+      "amount": 2,
+      "type": "bid"
+    },
+    {
+      "price": 29.99,
+      "amount": 2,
+      "type": "bid"
+    },
+    {
+      "price": 29.7,
+      "amount": 2,
+      "type": "bid"
+    },
+    {
+      "price": 18,
+      "amount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 26,
+      "amount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 27,
+      "amount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 31,
+      "amount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 33,
+      "amount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 34,
+      "amount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 35,
+      "amount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 34.72,
+      "amount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 34.16,
+      "amount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 33.98,
+      "amount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 33.02,
+      "amount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 32.37,
+      "amount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 31.74,
+      "amount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 31.12,
+      "amount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 33.66,
+      "amount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 33.63,
+      "amount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 33.6,
+      "amount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 33.45,
+      "amount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 33.44,
+      "amount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 33.2,
+      "amount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 33.12,
+      "amount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 33.04,
+      "amount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 32.33,
+      "amount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 32.31,
+      "amount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 32.1,
+      "amount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 32.05,
+      "amount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 31.9,
+      "amount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 31.84,
+      "amount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 31.82,
+      "amount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 31.76,
+      "amount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 31.75,
+      "amount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 31.66,
+      "amount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 31.63,
+      "amount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 31.6,
+      "amount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 31.5,
+      "amount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 31.3,
+      "amount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 31.05,
+      "amount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 30.6,
+      "amount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 30.2,
+      "amount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 29.75,
+      "amount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 29.5,
+      "amount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 29.25,
+      "amount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 28.75,
+      "amount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 28.5,
+      "amount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 28.25,
+      "amount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 27.75,
+      "amount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 27.25,
+      "amount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 26.75,
+      "amount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 26.5,
+      "amount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 26.25,
+      "amount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 27.11,
+      "amount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 27.1,
+      "amount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 25.23,
+      "amount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 17.02,
+      "amount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 8.7,
+      "amount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 0.1,
+      "amount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 0.07,
+      "amount": 1,
+      "type": "bid"
+    }
+  ],
+  "groupedAsks": [],
+  "bids": [
+    {
+      "type": "bid",
+      "pubkey": "CFkhWFrEv4FBThwzKMeb2eTPZsoVXSuQdJEKWZM9bzz2",
+      "price": 35,
+      "amount": 35
+    },
+    {
+      "type": "bid",
+      "pubkey": "6r9dmFwiDeTGZ6W9R5Vp6AopgLtbhKZTxdmXshFjkE9F",
+      "price": 34.7225,
+      "amount": 34.7225
+    },
+    {
+      "type": "bid",
+      "pubkey": "FHqsvb9C4hG1hDrYnTeNkEa8JezP75smFpYpvEDbUytB",
+      "price": 34.5,
+      "amount": 34.5
+    },
+    {
+      "type": "bid",
+      "pubkey": "6kZ2Yo4Qn6o8ZvVim8ekGxTv4HJfRKF5dD2C6oHzvfaf",
+      "price": 34.5,
+      "amount": 34.5
+    },
+    {
+      "type": "bid",
+      "pubkey": "EoaVYetXWVjvGdq9iZtSHfLt9ZRVfXLywd3RNaFeivwP",
+      "price": 34.499999999,
+      "amount": 68.727074255
+    },
+    {
+      "type": "bid",
+      "pubkey": "VK2D8CR3E5KcUfv6TT4475JQurSLyf5Sexn33rK19ZM",
+      "price": 34.4,
+      "amount": 34.4
+    },
+    {
+      "type": "bid",
+      "pubkey": "49CryCM8MH2Qcu4GSmiRo9YehertvNHkKMMhtf9ztaFu",
+      "price": 34.4,
+      "amount": 34.4
+    },
+    {
+      "type": "bid",
+      "pubkey": "DDxkGtvmXTuo7j5z3hxqjnS4WrgTMTwyboUEEEAWb9Vs",
+      "price": 34.399999998,
+      "amount": 34.434399998
+    },
+    {
+      "type": "bid",
+      "pubkey": "46rVRvQyBzDha2q3pzacvsdsyv4RJDWBD12RHxcsvoKK",
+      "price": 34.3999,
+      "amount": 240.7993
+    },
+    {
+      "type": "bid",
+      "pubkey": "6Leuuzp5ARPmiqeQBT6B8sSeQMcJGczqC6DzCfg6hDD5",
+      "price": 34.03,
+      "amount": 102.09
+    },
+    {
+      "type": "bid",
+      "pubkey": "2rj1X7Ri9MSQEdQTwxAhU6uN3iLrwMRiBnXa8Nwkko6R",
+      "price": 34.02,
+      "amount": 68.04
+    },
+    {
+      "type": "bid",
+      "pubkey": "8cNZmfAJYET8SAdwM6JVriUWh9JGTQf1juG5tDsAmWDy",
+      "price": 34.02,
+      "amount": 34.02
+    },
+    {
+      "type": "bid",
+      "pubkey": "61u2UeUnepjtkgwf8bJ6eMeooSN3CyGMjkcGiaoMsCuu",
+      "price": 34.009,
+      "amount": 68.018
+    },
+    {
+      "type": "bid",
+      "pubkey": "CqaBNmqfYDCFtK5LvSDViHXiEbMh8JAAr8QhxvJnGnem",
+      "price": 34,
+      "amount": 34
+    },
+    {
+      "type": "bid",
+      "pubkey": "5qqrYRoBCh3A48Nw8Z5xj9oQya9X5JmZkHtg7G9RmrxV",
+      "price": 33.98,
+      "amount": 33.98
+    },
+    {
+      "type": "bid",
+      "pubkey": "Gsevapjao3vqp17Je7Tp2zgp3WxAUdcsLuw3LLHaU4W7",
+      "price": 33.8,
+      "amount": 101.4
+    },
+    {
+      "type": "bid",
+      "pubkey": "Gxejv4HYSBgpZPKvCVZ6ChuUQkVyyxBDCPQ2NViiVemn",
+      "price": 33.6815,
+      "amount": 33.6815
+    },
+    {
+      "type": "bid",
+      "pubkey": "DyaFTnhNr9fo2aUuvVohKYHenZSyL7Hy3sNg9dEVrTSf",
+      "price": 33.6804,
+      "amount": 33.6804
+    },
+    {
+      "type": "bid",
+      "pubkey": "A1aZxh8FgyRXRABKjJZ4J6f4NajGdaryEGYbLMQ4kpJs",
+      "price": 33.6801,
+      "amount": 33.6801
+    },
+    {
+      "type": "bid",
+      "pubkey": "JBCgxsiphtxoBDQKX6qVWBrwVeecdEzKJ3mrJTHSGLZF",
+      "price": 33.6801,
+      "amount": 33.6801
+    },
+    {
+      "type": "bid",
+      "pubkey": "BkLi4p4wvMikE6QSrg1nvrERMyLhcFUw3CU6tQatsU3B",
+      "price": 33.6801,
+      "amount": 33.6801
+    },
+    {
+      "type": "bid",
+      "pubkey": "C1f18aF8ZLuskukmquNd8dYGo5J1anjd1RMta5nEGvpi",
+      "price": 33.6801,
+      "amount": 162.086708128
+    },
+    {
+      "type": "bid",
+      "pubkey": "7xgSwP3g7GwpX5UrGJLE6axMoAiyogo7NbEvPriLLo8k",
+      "price": 33.6801,
+      "amount": 33.6801
+    },
+    {
+      "type": "bid",
+      "pubkey": "HHpJQnoc3VrUp2yGEk9Ggm94iSf5HLEfE3AJsg4r89pH",
+      "price": 33.68,
+      "amount": 101.04
+    },
+    {
+      "type": "bid",
+      "pubkey": "Q6RhpDtir4Sgt5GoDQRpspjXZr9AQsZLjs2wqb11WRj",
+      "price": 33.68,
+      "amount": 33.68
+    },
+    {
+      "type": "bid",
+      "pubkey": "qLv3jfjpdyvmNJpTnyvK4yKwiFt1EkX93ogewoQbezG",
+      "price": 33.661,
+      "amount": 33.694661
+    },
+    {
+      "type": "bid",
+      "pubkey": "2P3aQywY2HLsJzE4P8F4MfYtP3UdiN85xurp9f4wetJE",
+      "price": 33.64,
+      "amount": 33.64
+    },
+    {
+      "type": "bid",
+      "pubkey": "BW6k4qrExwQ5Ui1zvput1vxgNB6kut1o2okH2ye2WsfV",
+      "price": 33.64,
+      "amount": 100.92
+    },
+    {
+      "type": "bid",
+      "pubkey": "GMKSxSkLgq8wwMKBjb555QvfgznDhLNfNczHcBKPKGdd",
+      "price": 33.63,
+      "amount": 33.63
+    },
+    {
+      "type": "bid",
+      "pubkey": "4o1X5mmfZ5BJVufAEL5SScbiNPpEarPCkmTsS5aqSkLA",
+      "price": 33.601,
+      "amount": 33.601
+    },
+    {
+      "type": "bid",
+      "pubkey": "6ixDk1BmVHXEXwfn986EGgTXMxGzx1B1c4dGiytUubLC",
+      "price": 33.45,
+      "amount": 33.45
+    },
+    {
+      "type": "bid",
+      "pubkey": "Djo3UD77XH6w6vy7uKoFSb39z4KPavPAduPUeknjibeW",
+      "price": 33.442,
+      "amount": 33.442
+    },
+    {
+      "type": "bid",
+      "pubkey": "2cE3RyJtMDNwYZEZo9kFTBvBbMoS2Fu6xnPuBo4XAheD",
+      "price": 33.223,
+      "amount": 132.892
+    },
+    {
+      "type": "bid",
+      "pubkey": "5wnnZnoiaSSHqMqyog6siCQt39iuioYFaydQtPrdxuNu",
+      "price": 33.2,
+      "amount": 33.2
+    },
+    {
+      "type": "bid",
+      "pubkey": "AerZZGoESu97S2B2Y3oGvqL3VzdxnqSFXGwaRP9NfmpM",
+      "price": 33.12,
+      "amount": 33.12
+    },
+    {
+      "type": "bid",
+      "pubkey": "9yc39zGFf4Sog9sxiH1fkxh6iVB6ZXgUiez5DfnJnu9H",
+      "price": 33.111,
+      "amount": 132.444
+    },
+    {
+      "type": "bid",
+      "pubkey": "7b1caNUDWmHpGcRYfv3XxFCW9tccZM9Kg1muQ5rnTx4a",
+      "price": 33.04,
+      "amount": 33.04
+    },
+    {
+      "type": "bid",
+      "pubkey": "8CYMeJRUrs6bZyroPzX6x5er6kCwjTyKK32jHb3RCRGb",
+      "price": 33.0305,
+      "amount": 66.061
+    },
+    {
+      "type": "bid",
+      "pubkey": "6dbtLc7UzZHiGVpW9HubbRjSFveuvFLJ9sgTYr5WLzdX",
+      "price": 33.0303,
+      "amount": 33.0303
+    },
+    {
+      "type": "bid",
+      "pubkey": "ima6MGYYiCyWsYnDfU9RgNNa5zMwy3frgnRMyi474KP",
+      "price": 33.0302,
+      "amount": 33.0302
+    },
+    {
+      "type": "bid",
+      "pubkey": "AVxoQZehdrSk4X4QPu4khZY2PtjUzFdPpCFxcB8ZhtcY",
+      "price": 33.0300899,
+      "amount": 33.0300899
+    },
+    {
+      "type": "bid",
+      "pubkey": "6JguARQaHfPuCiybyz5wzXvDvaTgdeYcLuFnz431hDxX",
+      "price": 33.029,
+      "amount": 33.029
+    },
+    {
+      "type": "bid",
+      "pubkey": "GD1eTsaHerr3H6tpKLhmEY7jT4y3B4rAAmAA4e3fpHSG",
+      "price": 33.02851,
+      "amount": 33.02851
+    },
+    {
+      "type": "bid",
+      "pubkey": "AVNwNN2Zsst1U2MzwGjKhSRVTFjNGkCd7dUUdJ5zxnBE",
+      "price": 33,
+      "amount": 33
+    },
+    {
+      "type": "bid",
+      "pubkey": "CYU6BmddmmrzvpSqZA3pQRhCKxqyQAp5PuSeQcYAPP4",
+      "price": 32.96,
+      "amount": 98.88
+    },
+    {
+      "type": "bid",
+      "pubkey": "BWsF6dW6udyV3z3aNZ6NWTDUHHPUiwioZyuN1bjNPAUy",
+      "price": 32.95,
+      "amount": 131.8
+    },
+    {
+      "type": "bid",
+      "pubkey": "2VbJkKc5XfWdwnUnxLzUdbhwTxefcYXEjYpYoxTBgdez",
+      "price": 32.500009999,
+      "amount": 32.500009999
+    },
+    {
+      "type": "bid",
+      "pubkey": "7wE6wSkt6Q8xrENAZ8JDYN1HAaEX9EnTNiBUkZRwjByL",
+      "price": 32.499999999,
+      "amount": 64.999999998
+    },
+    {
+      "type": "bid",
+      "pubkey": "2MZGn1fUmWXct1mQhuMtyezt1m9o4k1uxrkA7kTCN85E",
+      "price": 32.49,
+      "amount": 97.47
+    },
+    {
+      "type": "bid",
+      "pubkey": "BEse8yQZbDabVJjqoPR9mPAWrPct5dwMS6cyUZdoWUZ8",
+      "price": 32.328,
+      "amount": 32.328
+    },
+    {
+      "type": "bid",
+      "pubkey": "CNX5HHZ2RkLcTUmcZBkgejakvan9MhyRMnCfbSFWEpLG",
+      "price": 32.308,
+      "amount": 32.308
+    },
+    {
+      "type": "bid",
+      "pubkey": "3EF337gk7UNiZXuL7nNvzceGQtrfZbaapAAsFw3dGEhv",
+      "price": 32.1,
+      "amount": 32.1
+    },
+    {
+      "type": "bid",
+      "pubkey": "GgJUaxAhwM7jyFFQBv3NLhZdDwG7xNRRDoNsYUomECjN",
+      "price": 32.08,
+      "amount": 32.08
+    },
+    {
+      "type": "bid",
+      "pubkey": "CxrvPmUYigg3jbXKLgkudkaHqa1L2ft9pj78oxLJYFCP",
+      "price": 32.075,
+      "amount": 32.075
+    },
+    {
+      "type": "bid",
+      "pubkey": "DbHRGQboVg9vnkBtHKtXHeTTEbzMYeoTWECKMtiMxCDy",
+      "price": 32.05,
+      "amount": 63.846455941
+    },
+    {
+      "type": "bid",
+      "pubkey": "CuEt6BT2WkFuejZkuSkwtgUHacGwiDaqWbpNrVNiJBrM",
+      "price": 32.01,
+      "amount": 64.02
+    },
+    {
+      "type": "bid",
+      "pubkey": "97awSzCbyvvVSM64YgNNES7mE3Nc6v3toz2P6vuHtqdp",
+      "price": 32,
+      "amount": 64
+    },
+    {
+      "type": "bid",
+      "pubkey": "GGUyvKomekWHc4UozATGQp2TbJR6mKofqGU8rppCJjxj",
+      "price": 32,
+      "amount": 32
+    },
+    {
+      "type": "bid",
+      "pubkey": "CVvh4WDCFzLsS4EV7EovfcrQCBnCB1EQe8oqe6QMuZ7z",
+      "price": 32,
+      "amount": 32
+    },
+    {
+      "type": "bid",
+      "pubkey": "9cwhYhhvRFY3XfkGAcYmhZuYu3aYDDatVdDKsLXhi8sj",
+      "price": 31.9902,
+      "amount": 191.9412
+    },
+    {
+      "type": "bid",
+      "pubkey": "HdpXXRn1G3K1KDrDHGZEVx8fF4pUiLzXyfbyhn7im7ZR",
+      "price": 31.9901,
+      "amount": 191.9406
+    },
+    {
+      "type": "bid",
+      "pubkey": "EVKoE8XuVKF2KpmwX7QnvPRS7SnTRCpgvVWjd4QovnMF",
+      "price": 31.98,
+      "amount": 127.92
+    },
+    {
+      "type": "bid",
+      "pubkey": "3yDJcUtzogVPLyFzpX6tN1qQc4SxcQ37rD1UthqJLzSV",
+      "price": 31.9,
+      "amount": 31.9
+    },
+    {
+      "type": "bid",
+      "pubkey": "5Ui9QHsviCufbmdgtbn8mSeR5yVcHqYC1UcZ6dxZ3iEQ",
+      "price": 31.843500974,
+      "amount": 31.843500974
+    },
+    {
+      "type": "bid",
+      "pubkey": "7tWQKF4YnJ21FZbbMDjJUKpn9kaDMz4H9wGjH3ZUD9P8",
+      "price": 31.82,
+      "amount": 31.82
+    },
+    {
+      "type": "bid",
+      "pubkey": "2Xv1pzemoCWg5DDJ48sJfeztxEeL3HY2cwXMM8r1tPoL",
+      "price": 31.76,
+      "amount": 31.76
+    },
+    {
+      "type": "bid",
+      "pubkey": "H2NNL8LYPRmTRxnL57fs5w8MX8NXuCTx4JQ7TYL2ePTd",
+      "price": 31.75,
+      "amount": 31.75
+    },
+    {
+      "type": "bid",
+      "pubkey": "FC9FUpMnqkBHnuA4BNB5yEN3W7FsFyMznsikKCproFkD",
+      "price": 31.73,
+      "amount": 63.46
+    },
+    {
+      "type": "bid",
+      "pubkey": "4QcamYjLR5xy5ywBHP2jKpzJaHTMVxvYz3YFEoVdQQo8",
+      "price": 31.66,
+      "amount": 31.66
+    },
+    {
+      "type": "bid",
+      "pubkey": "HmXYQTpWRDRsVQrGtgaLJKn7nsdsXYbUM1D3izFZ2hLV",
+      "price": 31.63035,
+      "amount": 31.63035
+    },
+    {
+      "type": "bid",
+      "pubkey": "3oJ4tDgBy567eNrdMSiFbgfMBvfJcmxfRcLRRFzyqQ5i",
+      "price": 31.6,
+      "amount": 31.6
+    },
+    {
+      "type": "bid",
+      "pubkey": "3WRwxRCFsot81HPGWAQPip1CTjPgVRbApBHoRFFmQWmb",
+      "price": 31.5,
+      "amount": 31.5
+    },
+    {
+      "type": "bid",
+      "pubkey": "EYUFsepE9XDbbcDX2bEgCG9fCY5FvBUJ1WZjqR4VFjt2",
+      "price": 31.3,
+      "amount": 31.3
+    },
+    {
+      "type": "bid",
+      "pubkey": "2LZw1FVAVPDo23kyR4sWcHpa1oZ3MtAUCkXrGLKiT49N",
+      "price": 31.05,
+      "amount": 31.05
+    },
+    {
+      "type": "bid",
+      "pubkey": "6Z3xtvXdc5sK6zgn5MkhFGEzeedy8ghaTpJM9EyaCdxX",
+      "price": 31,
+      "amount": 31
+    },
+    {
+      "type": "bid",
+      "pubkey": "9WWFceA4yq7EdLuBvH77bhje7ukEjQgSnVwRDkzoyi2N",
+      "price": 30.6,
+      "amount": 30.6
+    },
+    {
+      "type": "bid",
+      "pubkey": "4czaZ1Ppp5pbisTBRRqVm8PS8RuJpbTCZiwNdMevvAJZ",
+      "price": 30.5,
+      "amount": 30.5
+    },
+    {
+      "type": "bid",
+      "pubkey": "CeLr1j6qR4mixCRkruYfQeY66cG7RbDnse5AraE28ivP",
+      "price": 30.5,
+      "amount": 30.5
+    },
+    {
+      "type": "bid",
+      "pubkey": "5C5pEV2ejczJWuP3kJkYsb1aWfHStiPC5fwiQ2Z4RY9P",
+      "price": 30.2,
+      "amount": 30.2
+    },
+    {
+      "type": "bid",
+      "pubkey": "CBU51fAhe9ydp1yUVCVoVfW3HyoesuT5xyYV5phMCZm8",
+      "price": 30.1,
+      "amount": 30.1
+    },
+    {
+      "type": "bid",
+      "pubkey": "CfRFGGomyxoLMKaTTptr4iF4y1RDu3QESvDi65f8eqVf",
+      "price": 30.1,
+      "amount": 30.1
+    },
+    {
+      "type": "bid",
+      "pubkey": "Az2pqNCZreJgwzy376HxKg2jTeGApKz1CHh23SaabYzw",
+      "price": 30,
+      "amount": 30
+    },
+    {
+      "type": "bid",
+      "pubkey": "EincVX4AS73AF996NhpuKojFH7GgYjp8ATyr1xsqTgC",
+      "price": 30,
+      "amount": 30
+    },
+    {
+      "type": "bid",
+      "pubkey": "G498NY38Jxdab9BbGfaKiHze1pcr94ZLqusDoxUwoWsm",
+      "price": 30,
+      "amount": 476
+    },
+    {
+      "type": "bid",
+      "pubkey": "EiKvURYTxCAxbTsLzgD4QkPh8u5pEA7GpsZYyvV9Qf4H",
+      "price": 30,
+      "amount": 30
+    },
+    {
+      "type": "bid",
+      "pubkey": "4eeuhMMhNkVQoTiVw1c5trPCPTYdZTwnPPCp1pYEYwGd",
+      "price": 30,
+      "amount": 30
+    },
+    {
+      "type": "bid",
+      "pubkey": "3jfwmaJaFE3Bd2SpfDKaRmqvDXHw2ggtxgSyTGF3LAbc",
+      "price": 29.99,
+      "amount": 59.98
+    },
+    {
+      "type": "bid",
+      "pubkey": "4h8YcxZHLWwMM5zLmhT7eMg9AbyWJj12gFWgFd9YdMa5",
+      "price": 29.7000101,
+      "amount": 29.7000101
+    },
+    {
+      "type": "bid",
+      "pubkey": "8wKKb1p24Y1i1ew3hq8j4TBt9ydJzfNtK5do8L6xaboo",
+      "price": 29.7,
+      "amount": 29.7
+    },
+    {
+      "type": "bid",
+      "pubkey": "HdPi5tHrkj3NFsptYHdsNvfynJamyF7Xf8ohWmRuTwDc",
+      "price": 29.000000001,
+      "amount": 29.000000001
+    },
+    {
+      "type": "bid",
+      "pubkey": "9nDfVxdk7QEoKREoYvzUpZ2oJMroupAetGG9mGWbcakG",
+      "price": 29,
+      "amount": 29
+    },
+    {
+      "type": "bid",
+      "pubkey": "8B8CrqwnsjtJzZyj5irV9s3cEoeHbKgF51CPezJm9Rnp",
+      "price": 29,
+      "amount": 29.029
+    },
+    {
+      "type": "bid",
+      "pubkey": "6LVA6r8iShrBXo4yDt5zjnLfBVLRgffDgk5r8CkgPWk7",
+      "price": 28,
+      "amount": 28
+    },
+    {
+      "type": "bid",
+      "pubkey": "CeZMndack18b8SuCbAZuG1Kf3id7qZwzdZtMWvJNLuKM",
+      "price": 28,
+      "amount": 28
+    },
+    {
+      "type": "bid",
+      "pubkey": "FCPqcz58ta8BE8mc8JapYFQ7TXAQ7aSqwpK12ybpscyt",
+      "price": 28,
+      "amount": 28
+    },
+    {
+      "type": "bid",
+      "pubkey": "8kLUQLK1UyLoCD5cFMgLzm5nNmf3o4QAma73FPnWQo2z",
+      "price": 27.5,
+      "amount": 27.5
+    },
+    {
+      "type": "bid",
+      "pubkey": "Gpkx1BhQFQS9kPi31DgnfN36zk6GCC3wiZbghJdRvPxa",
+      "price": 27.11,
+      "amount": 27.11
+    },
+    {
+      "type": "bid",
+      "pubkey": "Adw3ecYUAcP7i9DmbdnyS8NVJBZkBXQgVmKRXxBkbLTR",
+      "price": 27.1,
+      "amount": 27.1
+    },
+    {
+      "type": "bid",
+      "pubkey": "2ac7PTprWejbCZoe2oSWntSK15R9E3Jw5m8pUmECWStV",
+      "price": 25.232,
+      "amount": 25.232
+    },
+    {
+      "type": "bid",
+      "pubkey": "8nTZ5xWr6yjjMwua8QRPJnGFWNzDdXphAo34jNhhepgf",
+      "price": 25.000000001,
+      "amount": 125.000000005
+    },
+    {
+      "type": "bid",
+      "pubkey": "HoRdicBdxwrAP2GvDC7Y1LK6gu2y3TgwYEPdFusFajnB",
+      "price": 25,
+      "amount": 125
+    },
+    {
+      "type": "bid",
+      "pubkey": "EURB3abt5zBxpeNA88xFxcxZSRjgL3pTRsk4kSd9YQAY",
+      "price": 25,
+      "amount": 25
+    },
+    {
+      "type": "bid",
+      "pubkey": "6aBe8JjYtpZFtnxvhQ2t9hx8bbfGrbhg5tSx4mxCFPAr",
+      "price": 25,
+      "amount": 125
+    },
+    {
+      "type": "bid",
+      "pubkey": "2Z9unn4vJopGP8u9d8xMTLvnFRS2HaAowE5uZZPeDjhE",
+      "price": 24.000000001,
+      "amount": 72.000000003
+    },
+    {
+      "type": "bid",
+      "pubkey": "3YM59dYGVjtrTqwTtE7F982EKHbdsFGAkhvJQtYZvcFk",
+      "price": 24,
+      "amount": 48
+    },
+    {
+      "type": "bid",
+      "pubkey": "9CjzWFiPGCY6VWR84FhXmwocZ5A7xWtTAUPbG5WpAqn2",
+      "price": 18,
+      "amount": 18
+    },
+    {
+      "type": "bid",
+      "pubkey": "EXR77t9QUK8s4M5ufHzBhYWqnHNoxxDRpSeAZfYTaSpo",
+      "price": 17.02,
+      "amount": 17.02
+    },
+    {
+      "type": "bid",
+      "pubkey": "AFnwhtbHL8YZxnHcR3cSrTNPeUsZVbdG6iVt34Koifv8",
+      "price": 10,
+      "amount": 70
+    },
+    {
+      "type": "bid",
+      "pubkey": "CkoaN7TCoMAfqBMcWaav47maHNqAkLFKWzt8NQb5H7Dq",
+      "price": 8.7,
+      "amount": 8.7
+    },
+    {
+      "type": "bid",
+      "pubkey": "kimhyPZ6YzkmjUzYC7aHs1ffHV7JQVK3Wn6VVHW8zKj",
+      "price": 1,
+      "amount": 1
+    },
+    {
+      "type": "bid",
+      "pubkey": "2qQ6QXCrRUuavRLU3mMRp63WJXDcemd8Ck2co7S8QhBX",
+      "price": 1,
+      "amount": 1
+    },
+    {
+      "type": "bid",
+      "pubkey": "k9iYPo5L4ba18bTepS8FGTRoKf6z2zfSS7D5pmUS4cd",
+      "price": 1,
+      "amount": 891
+    },
+    {
+      "type": "bid",
+      "pubkey": "EKK4K48CNBvJghZ9roeoe1DLMmbrn7djgf6PLyQwQuw7",
+      "price": 0.1,
+      "amount": 0.1001
+    },
+    {
+      "type": "bid",
+      "pubkey": "2MdETpzRNGGkY3C9rJwR77JXtKyBh9ZkQzmizcDvcFsi",
+      "price": 0.069,
+      "amount": 0.069
+    },
+    {
+      "type": "bid",
+      "pubkey": "9iKgdk1mXKZqxpzGBTpXRy4ToeW6KvpD3boyJ1UX6GDb",
+      "price": 0.01,
+      "amount": 0.01
+    },
+    {
+      "type": "bid",
+      "pubkey": "BLkk5FZwrYYANtrWns8a78oHyRX8rwbvSR9kXC3ndqgc",
+      "price": 0.01,
+      "amount": 0.01
+    },
+    {
+      "type": "bid",
+      "pubkey": "HYZD2VoAAwmZ4znYrFipPjKYPPJVpc1uStFvdCLo8bGp",
+      "price": 0.01,
+      "amount": 0.01
+    },
+    {
+      "type": "bid",
+      "pubkey": "GSq2AC9Sgc1LVcSg43koFu2CpcW1i8UV2An1Sc48VrUm",
+      "price": 0.01,
+      "amount": 0.01001
+    },
+    {
+      "type": "bid",
+      "pubkey": "FXy1UqwHaZDu1fjS719iWo6JNZznih3BHqxU5tco15GT",
+      "price": 0.002,
+      "amount": 0.02
+    },
+    {
+      "type": "bid",
+      "pubkey": "BFZeh3mdLzVVCYNzV4wrsbWoHhAe6kVPgEBtZVbzuDRf",
+      "price": 0.001,
+      "amount": 0.001
+    },
+    {
+      "type": "bid",
+      "pubkey": "DU1PM1zEuPBdFxB1uxw7ZcdSBG3UVUFEKw6chJ1uSUaM",
+      "price": 0.001,
+      "amount": 0.003
+    },
+    {
+      "type": "bid",
+      "pubkey": "3ED76hzJUqfYB4uVp7stmvR7tL4qWmFQZ1Am5PaUhwwR",
+      "price": 0.001,
+      "amount": 0.002
+    },
+    {
+      "type": "bid",
+      "pubkey": "HGtbccGfrBtzqdBdhJDJ7kmTAn7vaZ9ox8vJNSyDcwQ7",
+      "price": 0.001,
+      "amount": 0.1
+    },
+    {
+      "type": "bid",
+      "pubkey": "Dh2KiAvXRETqANZKU5vCERhroQ83QqzAzbu78pz7fh2E",
+      "price": 0.0001,
+      "amount": 0.001
+    },
+    {
+      "type": "bid",
+      "pubkey": "9Y12gRZdU4CJDkYp7YxasS3DseRgKT9rALVpES6V6DhD",
+      "price": 0.0000151,
+      "amount": 0.0019328
+    },
+    {
+      "type": "bid",
+      "pubkey": "6mYH4qNrGcmjikcnHW7AR5BvmnJCcmguZys3Hebdvbz6",
+      "price": 0.000001,
+      "amount": 0.000001
+    },
+    {
+      "type": "bid",
+      "pubkey": "HWwtZkEEDjWSSigCBNMNkM3TpDUHcHH6fMQXGqCWfdt9",
+      "price": 1e-9,
+      "amount": 0.000001
+    },
+    {
+      "type": "bid",
+      "pubkey": "5MDdwDaY7sT4YYC7eptFKKdK4fiipyQBHQEuneYpuumw",
+      "price": 0,
+      "amount": 0
+    },
+    {
+      "type": "bid",
+      "pubkey": "T8De3Lgavz12iFD843mYBYpzRQxjxWbt3E8ToSSN1uJ",
+      "price": 0,
+      "amount": 0
+    },
+    {
+      "type": "bid",
+      "pubkey": "6wBUeQ4ZBiF6pXwjvsRt2hzMuQkTYYCHLMiMACe8t5fC",
+      "price": 0,
+      "amount": 0
+    },
+    {
+      "type": "bid",
+      "pubkey": "WEaDA4UweV8xFtx5bHqu4b4H5whPSmnnC4T8WmX2zna",
+      "price": 0,
+      "amount": 0
+    },
+    {
+      "type": "bid",
+      "pubkey": "ANkC3A5Uxie1gFcXbHDfWFLLou3wDNDYp6thCJ8JNYFq",
+      "price": 0,
+      "amount": 0
+    }
+  ],
+  "asks": [],
+  "maxBidPrice": 0,
+  "minAskPrice": 0,
+  "spread": 0
+}

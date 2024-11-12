@@ -19,7 +19,7 @@ export const getLamportsSolBalances = async (
     balancesArr.push(...sols);
     count += sols.length;
 
-    console.log(`fetched ${count}/${accounts.length} account balances`);
+    console.log(`[SOL balance check] Fetched ${count}/${accounts.length} account balances`);
   }
 
   for (const acc of balancesArr) {

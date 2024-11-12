@@ -1,7 +1,6 @@
 import { dasApi } from "@metaplex-foundation/digital-asset-standard-api";
 import { createUmi } from "@metaplex-foundation/umi-bundle-defaults";
 import { PublicKey } from "@solana/web3.js";
-require("dotenv").config();
 
 const umi = createUmi(process.env.network_url || "").use(dasApi());
 

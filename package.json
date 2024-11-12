@@ -4,7 +4,8 @@
   "description": "Tensor.trade orderbook",
   "main": "index.js",
   "scripts": {
-    "start": "tsx examples/orderbook.ts"
+    "full-orderbook": "tsx --env-file=.env examples/full-orderbook.ts",
+    "bids-orderbook": "tsx --env-file=.env examples/bids-orderbook.ts"
   },
   "keywords": [],
   "author": "kelreel",

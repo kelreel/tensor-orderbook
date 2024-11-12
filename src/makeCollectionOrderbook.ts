@@ -29,7 +29,7 @@ type Params = {
   conn: Connection;
   swapSdk: TensorSwapSDK;
   wlSdk: TensorWhitelistSDK;
-  COLLECTION_UUID: string;
+  collectionUuid: string;
   withListings?: boolean;
   precision?: number;
 };
@@ -38,17 +38,16 @@ export const makeCollectionOrderbook = async ({
   conn,
   swapSdk,
   wlSdk,
-  COLLECTION_UUID,
+  collectionUuid,
   withListings = false,
   precision = 0.001,
 }: Params): Promise<Orderbook> => {
   // TODO: also use mm orders (pools)
-  const { bids } = await getPools(conn, swapSdk, COLLECTION_UUID);
+  const { bids } = await getPools(conn, swapSdk, collectionUuid);
 
   let listings: SingleListing[] = [];
-
   if (withListings) {
-    listings = await getSingleListings({ conn, swapSdk, wlSdk, COLLECTION_UUID });
+    listings = await getSingleListings({ conn, swapSdk, wlSdk, collectionUuid: collectionUuid });
   }
 
   const groupedBidOrders: Record<number, number> = {};
@@ -90,8 +89,8 @@ export const makeCollectionOrderbook = async ({
       type: "ask" as OrderType,
     }));
 
-  const maxBidPrice = groupedBids[0].price;
-  const minAskPrice = groupedAsks[0].price || 0;
+  const maxBidPrice = groupedBids[0]?.price;
+  const minAskPrice = groupedAsks[0]?.price || 0;
   const spread = minAskPrice ? minAskPrice - maxBidPrice : 0;
 
   return {

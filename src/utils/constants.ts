@@ -1,0 +1,4 @@
+export const COLLECTION_UUID = {
+  MADLADS: "bd366797-5599-417a-be03-1e43a7e3fb90",
+  RETARDIO_COUSINS: "ac3c5fb8-e8b5-41e5-b744-7df52b38ddbd",
+};

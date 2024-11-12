@@ -41,7 +41,7 @@ export type BidPoolData = BidPoolDataRaw & {
 export const getPools = async (
   conn: Connection,
   swapSdk: TensorSwapSDK,
-  COLLECTION_UUID: string
+  collectionUuid: string
 ): Promise<{
   bids: BidPoolData[];
   listings: PoolAnchor[];
@@ -49,10 +49,10 @@ export const getPools = async (
   let startDate = performance.now();
   console.log("fetching pools...");
 
-  const uuidArray = Buffer.from(COLLECTION_UUID.replaceAll("-", "")).toJSON().data;
+  const uuidArray = Buffer.from(collectionUuid.replaceAll("-", "")).toJSON().data;
   const whitelist = findWhitelistPDA({ uuid: uuidArray })[0];
 
-  console.log("whitelist", whitelist.toBase58());
+  console.log("Whitelist: ", whitelist.toBase58());
 
   const pools = (
     await conn.getParsedProgramAccounts(TSWAP_PROGRAM_ID, {
@@ -87,7 +87,11 @@ export const getPools = async (
 
   let endDate = performance.now();
 
-  console.log(`found ${pools.length} pools, took (${Math.round(((endDate - startDate) / 1000) * 100) / 100} sec)`);
+  console.log(
+    `[Pools parsing] Fetched ${pools.length} pools, took (${
+      Math.round(((endDate - startDate) / 1000) * 100) / 100
+    } sec)`
+  );
 
   let rawBids: BidPoolDataRaw[] = [];
   let listings: PoolAnchor[] = [];
@@ -101,7 +105,7 @@ export const getPools = async (
   endDate = performance.now();
 
   console.log(
-    `fetched ${Object.keys(balances).length} balances, took (${
+    `[Pools parsing] Fetched ${Object.keys(balances).length} balances, took (${
       Math.round(((endDate - startDate) / 1000) * 100) / 100
     } sec)`
   );
