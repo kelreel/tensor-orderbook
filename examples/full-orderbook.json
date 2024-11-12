@@ -1,0 +1,3339 @@
+{
+  "spread": -1.3000000000000043,
+  "minAskPrice": 33.3,
+  "maxBidPrice": 34.6,
+  "groupedBids": [
+    {
+      "price": 34.6,
+      "nftCount": 7,
+      "type": "bid"
+    },
+    {
+      "price": 34.5,
+      "nftCount": 21,
+      "type": "bid"
+    },
+    {
+      "price": 34.4,
+      "nftCount": 4,
+      "type": "bid"
+    },
+    {
+      "price": 34.2,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 34.1,
+      "nftCount": 3,
+      "type": "bid"
+    },
+    {
+      "price": 34,
+      "nftCount": 4,
+      "type": "bid"
+    },
+    {
+      "price": 33.8,
+      "nftCount": 7,
+      "type": "bid"
+    },
+    {
+      "price": 33.7,
+      "nftCount": 5,
+      "type": "bid"
+    },
+    {
+      "price": 33.6,
+      "nftCount": 3,
+      "type": "bid"
+    },
+    {
+      "price": 33.5,
+      "nftCount": 4,
+      "type": "bid"
+    },
+    {
+      "price": 33.4,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 33.2,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 33.1,
+      "nftCount": 7,
+      "type": "bid"
+    },
+    {
+      "price": 33,
+      "nftCount": 7,
+      "type": "bid"
+    },
+    {
+      "price": 32.7,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 32.5,
+      "nftCount": 5,
+      "type": "bid"
+    },
+    {
+      "price": 32.4,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 32.3,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 32.1,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 32,
+      "nftCount": 23,
+      "type": "bid"
+    },
+    {
+      "price": 31.9,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 31.8,
+      "nftCount": 5,
+      "type": "bid"
+    },
+    {
+      "price": 31.7,
+      "nftCount": 4,
+      "type": "bid"
+    },
+    {
+      "price": 31.6,
+      "nftCount": 2,
+      "type": "bid"
+    },
+    {
+      "price": 31.3,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 31.1,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 31,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 30.6,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 30.5,
+      "nftCount": 2,
+      "type": "bid"
+    },
+    {
+      "price": 30.2,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 30.1,
+      "nftCount": 2,
+      "type": "bid"
+    },
+    {
+      "price": 30,
+      "nftCount": 11,
+      "type": "bid"
+    },
+    {
+      "price": 29.8,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 29.7,
+      "nftCount": 2,
+      "type": "bid"
+    },
+    {
+      "price": 29.5,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 29.3,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 29,
+      "nftCount": 4,
+      "type": "bid"
+    },
+    {
+      "price": 28.8,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 28.5,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 28.3,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 28,
+      "nftCount": 2,
+      "type": "bid"
+    },
+    {
+      "price": 27.8,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 27.5,
+      "nftCount": 2,
+      "type": "bid"
+    },
+    {
+      "price": 27.3,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 27.1,
+      "nftCount": 2,
+      "type": "bid"
+    },
+    {
+      "price": 27,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 26.8,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 26.5,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 26.3,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 26,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 25.2,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 25,
+      "nftCount": 16,
+      "type": "bid"
+    },
+    {
+      "price": 24,
+      "nftCount": 5,
+      "type": "bid"
+    },
+    {
+      "price": 18,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 17,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 10,
+      "nftCount": 7,
+      "type": "bid"
+    },
+    {
+      "price": 8.7,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "price": 1,
+      "nftCount": 893,
+      "type": "bid"
+    },
+    {
+      "price": 0.1,
+      "nftCount": 2,
+      "type": "bid"
+    },
+    {
+      "price": 0,
+      "nftCount": 4,
+      "type": "bid"
+    }
+  ],
+  "groupedAsks": [
+    {
+      "price": 33.3,
+      "nftCount": 6,
+      "type": "ask"
+    },
+    {
+      "price": 33.4,
+      "nftCount": 3,
+      "type": "ask"
+    },
+    {
+      "price": 33.5,
+      "nftCount": 2,
+      "type": "ask"
+    },
+    {
+      "price": 33.7,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 33.9,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 34,
+      "nftCount": 2,
+      "type": "ask"
+    },
+    {
+      "price": 34.3,
+      "nftCount": 15,
+      "type": "ask"
+    },
+    {
+      "price": 34.4,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 34.9,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 35,
+      "nftCount": 6,
+      "type": "ask"
+    },
+    {
+      "price": 35.5,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 36,
+      "nftCount": 3,
+      "type": "ask"
+    },
+    {
+      "price": 36.8,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 36.9,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 37,
+      "nftCount": 2,
+      "type": "ask"
+    },
+    {
+      "price": 37.2,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 37.5,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 38,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 38.6,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 39,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 39.9,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 40,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 40.3,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 40.5,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 42,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 42.5,
+      "nftCount": 2,
+      "type": "ask"
+    },
+    {
+      "price": 42.6,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 43.3,
+      "nftCount": 10,
+      "type": "ask"
+    },
+    {
+      "price": 43.4,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 44,
+      "nftCount": 2,
+      "type": "ask"
+    },
+    {
+      "price": 45,
+      "nftCount": 3,
+      "type": "ask"
+    },
+    {
+      "price": 45.4,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 46,
+      "nftCount": 2,
+      "type": "ask"
+    },
+    {
+      "price": 46.8,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 47,
+      "nftCount": 2,
+      "type": "ask"
+    },
+    {
+      "price": 47.2,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 47.3,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 47.8,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 47.9,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 48.9,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 49,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 49.2,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 49.5,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 50,
+      "nftCount": 7,
+      "type": "ask"
+    },
+    {
+      "price": 50.1,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 50.2,
+      "nftCount": 5,
+      "type": "ask"
+    },
+    {
+      "price": 51.5,
+      "nftCount": 2,
+      "type": "ask"
+    },
+    {
+      "price": 52,
+      "nftCount": 2,
+      "type": "ask"
+    },
+    {
+      "price": 53.4,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 54,
+      "nftCount": 3,
+      "type": "ask"
+    },
+    {
+      "price": 54.8,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 55,
+      "nftCount": 2,
+      "type": "ask"
+    },
+    {
+      "price": 55.4,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 55.5,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 56,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 58,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 59,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 60,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 61,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 62,
+      "nftCount": 3,
+      "type": "ask"
+    },
+    {
+      "price": 63,
+      "nftCount": 2,
+      "type": "ask"
+    },
+    {
+      "price": 64,
+      "nftCount": 2,
+      "type": "ask"
+    },
+    {
+      "price": 65,
+      "nftCount": 2,
+      "type": "ask"
+    },
+    {
+      "price": 65.9,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 66.1,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 69.3,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 70,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 72,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 73,
+      "nftCount": 3,
+      "type": "ask"
+    },
+    {
+      "price": 74,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 75,
+      "nftCount": 6,
+      "type": "ask"
+    },
+    {
+      "price": 75.7,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 79,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 80,
+      "nftCount": 3,
+      "type": "ask"
+    },
+    {
+      "price": 82,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 85,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 86,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 88,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 90,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 96.5,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 96.7,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 98.2,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 99,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 100,
+      "nftCount": 2,
+      "type": "ask"
+    },
+    {
+      "price": 106,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 110,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 113,
+      "nftCount": 2,
+      "type": "ask"
+    },
+    {
+      "price": 115.1,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 120,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 125,
+      "nftCount": 2,
+      "type": "ask"
+    },
+    {
+      "price": 132.4,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 133.7,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 137,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 140,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 140.4,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 142,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 142.7,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 145,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 149,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 150,
+      "nftCount": 7,
+      "type": "ask"
+    },
+    {
+      "price": 152,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 155,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 175,
+      "nftCount": 4,
+      "type": "ask"
+    },
+    {
+      "price": 180,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 181.7,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 189,
+      "nftCount": 2,
+      "type": "ask"
+    },
+    {
+      "price": 189.2,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 200,
+      "nftCount": 8,
+      "type": "ask"
+    },
+    {
+      "price": 205,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 208.1,
+      "nftCount": 2,
+      "type": "ask"
+    },
+    {
+      "price": 210,
+      "nftCount": 2,
+      "type": "ask"
+    },
+    {
+      "price": 212,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 213,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 215,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 220,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 225,
+      "nftCount": 5,
+      "type": "ask"
+    },
+    {
+      "price": 230,
+      "nftCount": 2,
+      "type": "ask"
+    },
+    {
+      "price": 235,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 236.5,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 240,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 245,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 250,
+      "nftCount": 7,
+      "type": "ask"
+    },
+    {
+      "price": 275,
+      "nftCount": 2,
+      "type": "ask"
+    },
+    {
+      "price": 290,
+      "nftCount": 2,
+      "type": "ask"
+    },
+    {
+      "price": 300,
+      "nftCount": 2,
+      "type": "ask"
+    },
+    {
+      "price": 340,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 349.8,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 369.4,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 400,
+      "nftCount": 3,
+      "type": "ask"
+    },
+    {
+      "price": 460,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 500,
+      "nftCount": 6,
+      "type": "ask"
+    },
+    {
+      "price": 599,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 630.7,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 645,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 728.2,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 750,
+      "nftCount": 2,
+      "type": "ask"
+    },
+    {
+      "price": 769,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 798,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 800,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 841,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 898.8,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 969,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 988,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 1200,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 2000,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 2400,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 5000,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "price": 9000,
+      "nftCount": 1,
+      "type": "ask"
+    }
+  ],
+  "bids": [
+    {
+      "pubkey": "Lp8xoix3QEjf1xbhsuLWt7Va9hXWo3Z5tgdSeBtQbCd",
+      "initialPrice": 34.6,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "4KTd9F27Q84PPoueVJUEeGc9nzcR4Aw2w3UXLQ3MJPLX",
+      "initialPrice": 34.599999999,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "HQyUKWrT3jyb7ELEucnq8Qa2hXqYk9sGsLpTRKXL5QkT",
+      "initialPrice": 34.57,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "GwEKVh63E7viU1DAha2rtbydTNWyNu6WCJRGT4j8REAY",
+      "initialPrice": 34.57,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "2PnX9aWNUEg1gyFo59PsfDgfQqQYSNqkNqxex9Gru5KJ",
+      "initialPrice": 34.569999999,
+      "nftCount": 2,
+      "type": "bid"
+    },
+    {
+      "pubkey": "BPbwkEuAdQ8nf67FhSmPJ75W3Lrb6qb5SyBCTY6Zgpyv",
+      "initialPrice": 34.569999998,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "BvvAa1WbaHEMWN7zzQwJdtsSPGeJq7L3HNT1QnyfQ7Jm",
+      "initialPrice": 34.569999998,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "B5X4hWh8DDvuV5po56xsKcQhVi4tFddjJtyjFZhgNyAw",
+      "initialPrice": 34.55,
+      "nftCount": 2,
+      "type": "bid"
+    },
+    {
+      "pubkey": "PaZmjv7t6bPfHA4drxhDhzuxZXsS8hQF5QjVY5wF7yM",
+      "initialPrice": 34.51,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "qQcbWYTsKP1ef2n6x8D4sJJNqP2yi5Do8PBQhAm8HAA",
+      "initialPrice": 34.5005,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "ANjMqAiMou6nR3o7xq5AiDuxsucSey7DuVhXnY3pqZRE",
+      "initialPrice": 34.5,
+      "nftCount": 2,
+      "type": "bid"
+    },
+    {
+      "pubkey": "7GCXZiyC53KmD64UTv1V7zxvskofQM5wyd7r5UxW7usM",
+      "initialPrice": 34.5,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "76N9Acs5mZmeb2MEEqi8v4tdX3sZE9SZXj1jiVWLkbay",
+      "initialPrice": 34.5,
+      "nftCount": 7,
+      "type": "bid"
+    },
+    {
+      "pubkey": "933GFhX81oLTuX3aXpkUJuq4cCL8Nc17iWnrjfBNteyp",
+      "initialPrice": 34.4911,
+      "nftCount": 2,
+      "type": "bid"
+    },
+    {
+      "pubkey": "fnf8ZxjvzQMwKraQskBxe3SqaiVtFMc8RUk1CmfVdUi",
+      "initialPrice": 34.491,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "AR9vwthxpx5DkHGMd7wSAcZRdN2vUjvmHftg5LXUBDb3",
+      "initialPrice": 34.491,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "E9MNSEbkpexBP2JPyYeRbMKYLMvbbFFsotzoaW1ssBLK",
+      "initialPrice": 34.491,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "6scoVjb6MPgWrA6o4PYvCUMYosbYAQHTWa2aCbPtetUq",
+      "initialPrice": 34.49,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "BAwKv3tPfYAkzaehjhRAdxZq2FgXFYAnhdBrvkSNt1Uh",
+      "initialPrice": 34.478,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "5dmFSATqszUZmuVvDWyJ5Q97nA6mFYhvEzMGTMG2JUkX",
+      "initialPrice": 34.41,
+      "nftCount": 3,
+      "type": "bid"
+    },
+    {
+      "pubkey": "G3NYMZoiH4y2WZ5rQ2vWY1v1nocDjfreYzPaEEoLZwXC",
+      "initialPrice": 34.4,
+      "nftCount": 5,
+      "type": "bid"
+    },
+    {
+      "pubkey": "GLoN4BiBxRzsD27UQYEASNaUntuZfAQG8owRWwWWMVA3",
+      "initialPrice": 34.12,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "C2gAW3YLsnXuijD4FxrudPB2N736cYWX9crDbJzm72K3",
+      "initialPrice": 34.11,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "5ov61dTUA4cw1E6rSkUE1nWURkhH2rySqeXYbBhqYcB7",
+      "initialPrice": 34.1,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "84fHcFTgXy4iYwYctrFGVh9wmy3XauPp57WaE81MaBa1",
+      "initialPrice": 34.05,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "AdWZQfkCraGMmVnGxKRvLPKZZNdqZSSPzcJcsvgo9dak",
+      "initialPrice": 34.03,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "8cNZmfAJYET8SAdwM6JVriUWh9JGTQf1juG5tDsAmWDy",
+      "initialPrice": 34.02,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "5qqrYRoBCh3A48Nw8Z5xj9oQya9X5JmZkHtg7G9RmrxV",
+      "initialPrice": 33.98,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "DDr9FYSF31jQ14P4oz5YC5XetrxPGkALLJu3XsbP6SAb",
+      "initialPrice": 33.823,
+      "nftCount": 4,
+      "type": "bid"
+    },
+    {
+      "pubkey": "Gsevapjao3vqp17Je7Tp2zgp3WxAUdcsLuw3LLHaU4W7",
+      "initialPrice": 33.8,
+      "nftCount": 3,
+      "type": "bid"
+    },
+    {
+      "pubkey": "7xEai3B2HHkScXVB57zMBHq9gsXWTErUCova97m6GFoN",
+      "initialPrice": 33.69,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "DyaFTnhNr9fo2aUuvVohKYHenZSyL7Hy3sNg9dEVrTSf",
+      "initialPrice": 33.6804,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "Q6RhpDtir4Sgt5GoDQRpspjXZr9AQsZLjs2wqb11WRj",
+      "initialPrice": 33.68,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "qLv3jfjpdyvmNJpTnyvK4yKwiFt1EkX93ogewoQbezG",
+      "initialPrice": 33.661,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "BW6k4qrExwQ5Ui1zvput1vxgNB6kut1o2okH2ye2WsfV",
+      "initialPrice": 33.64,
+      "nftCount": 3,
+      "type": "bid"
+    },
+    {
+      "pubkey": "FfFSHYgNNhx6PHPAf1wUcaz9quQkNgCa5jfMChHY9767",
+      "initialPrice": 33.5,
+      "nftCount": 4,
+      "type": "bid"
+    },
+    {
+      "pubkey": "Djo3UD77XH6w6vy7uKoFSb39z4KPavPAduPUeknjibeW",
+      "initialPrice": 33.442,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "5wnnZnoiaSSHqMqyog6siCQt39iuioYFaydQtPrdxuNu",
+      "initialPrice": 33.2,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "ExBAmepDAjSNrmVjUGz3graBE4wpPDy4ZzbMxhFoRKD1",
+      "initialPrice": 33.12001,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "AerZZGoESu97S2B2Y3oGvqL3VzdxnqSFXGwaRP9NfmpM",
+      "initialPrice": 33.12,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "9yc39zGFf4Sog9sxiH1fkxh6iVB6ZXgUiez5DfnJnu9H",
+      "initialPrice": 33.111,
+      "nftCount": 4,
+      "type": "bid"
+    },
+    {
+      "pubkey": "AVxoQZehdrSk4X4QPu4khZY2PtjUzFdPpCFxcB8ZhtcY",
+      "initialPrice": 33.0300899,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "GD1eTsaHerr3H6tpKLhmEY7jT4y3B4rAAmAA4e3fpHSG",
+      "initialPrice": 33.02851,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "AVNwNN2Zsst1U2MzwGjKhSRVTFjNGkCd7dUUdJ5zxnBE",
+      "initialPrice": 33,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "DSika3kpNfbUzktddFJMn849MdanspmzaH49ouk7ZNpt",
+      "initialPrice": 33,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "CYU6BmddmmrzvpSqZA3pQRhCKxqyQAp5PuSeQcYAPP4",
+      "initialPrice": 32.96,
+      "nftCount": 3,
+      "type": "bid"
+    },
+    {
+      "pubkey": "FBXPy7mWrQy1vxmYWo8pHgfb1GbbidHEcdw8pMmzRV6z",
+      "initialPrice": 32.691,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "7wE6wSkt6Q8xrENAZ8JDYN1HAaEX9EnTNiBUkZRwjByL",
+      "initialPrice": 32.499999999,
+      "nftCount": 2,
+      "type": "bid"
+    },
+    {
+      "pubkey": "2MZGn1fUmWXct1mQhuMtyezt1m9o4k1uxrkA7kTCN85E",
+      "initialPrice": 32.49,
+      "nftCount": 3,
+      "type": "bid"
+    },
+    {
+      "pubkey": "CNX5HHZ2RkLcTUmcZBkgejakvan9MhyRMnCfbSFWEpLG",
+      "initialPrice": 32.308,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "CxrvPmUYigg3jbXKLgkudkaHqa1L2ft9pj78oxLJYFCP",
+      "initialPrice": 32.075,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "DbHRGQboVg9vnkBtHKtXHeTTEbzMYeoTWECKMtiMxCDy",
+      "initialPrice": 32.05,
+      "nftCount": 2,
+      "type": "bid"
+    },
+    {
+      "pubkey": "CuEt6BT2WkFuejZkuSkwtgUHacGwiDaqWbpNrVNiJBrM",
+      "initialPrice": 32.01,
+      "nftCount": 2,
+      "type": "bid"
+    },
+    {
+      "pubkey": "GGUyvKomekWHc4UozATGQp2TbJR6mKofqGU8rppCJjxj",
+      "initialPrice": 32,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "97awSzCbyvvVSM64YgNNES7mE3Nc6v3toz2P6vuHtqdp",
+      "initialPrice": 32,
+      "nftCount": 2,
+      "type": "bid"
+    },
+    {
+      "pubkey": "CVvh4WDCFzLsS4EV7EovfcrQCBnCB1EQe8oqe6QMuZ7z",
+      "initialPrice": 32,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "9cwhYhhvRFY3XfkGAcYmhZuYu3aYDDatVdDKsLXhi8sj",
+      "initialPrice": 31.9902,
+      "nftCount": 6,
+      "type": "bid"
+    },
+    {
+      "pubkey": "HdpXXRn1G3K1KDrDHGZEVx8fF4pUiLzXyfbyhn7im7ZR",
+      "initialPrice": 31.9901,
+      "nftCount": 6,
+      "type": "bid"
+    },
+    {
+      "pubkey": "EVKoE8XuVKF2KpmwX7QnvPRS7SnTRCpgvVWjd4QovnMF",
+      "initialPrice": 31.98,
+      "nftCount": 4,
+      "type": "bid"
+    },
+    {
+      "pubkey": "3yDJcUtzogVPLyFzpX6tN1qQc4SxcQ37rD1UthqJLzSV",
+      "initialPrice": 31.9,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "5Ui9QHsviCufbmdgtbn8mSeR5yVcHqYC1UcZ6dxZ3iEQ",
+      "initialPrice": 31.843500974,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "7tWQKF4YnJ21FZbbMDjJUKpn9kaDMz4H9wGjH3ZUD9P8",
+      "initialPrice": 31.82,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "2Xv1pzemoCWg5DDJ48sJfeztxEeL3HY2cwXMM8r1tPoL",
+      "initialPrice": 31.76,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "H2NNL8LYPRmTRxnL57fs5w8MX8NXuCTx4JQ7TYL2ePTd",
+      "initialPrice": 31.75,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "FC9FUpMnqkBHnuA4BNB5yEN3W7FsFyMznsikKCproFkD",
+      "initialPrice": 31.73,
+      "nftCount": 2,
+      "type": "bid"
+    },
+    {
+      "pubkey": "4QcamYjLR5xy5ywBHP2jKpzJaHTMVxvYz3YFEoVdQQo8",
+      "initialPrice": 31.66,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "HmXYQTpWRDRsVQrGtgaLJKn7nsdsXYbUM1D3izFZ2hLV",
+      "initialPrice": 31.63035,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "3oJ4tDgBy567eNrdMSiFbgfMBvfJcmxfRcLRRFzyqQ5i",
+      "initialPrice": 31.6,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "EYUFsepE9XDbbcDX2bEgCG9fCY5FvBUJ1WZjqR4VFjt2",
+      "initialPrice": 31.3,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "2LZw1FVAVPDo23kyR4sWcHpa1oZ3MtAUCkXrGLKiT49N",
+      "initialPrice": 31.05,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "6Z3xtvXdc5sK6zgn5MkhFGEzeedy8ghaTpJM9EyaCdxX",
+      "initialPrice": 31,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "9WWFceA4yq7EdLuBvH77bhje7ukEjQgSnVwRDkzoyi2N",
+      "initialPrice": 30.6,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "4czaZ1Ppp5pbisTBRRqVm8PS8RuJpbTCZiwNdMevvAJZ",
+      "initialPrice": 30.5,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "CeLr1j6qR4mixCRkruYfQeY66cG7RbDnse5AraE28ivP",
+      "initialPrice": 30.5,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "5C5pEV2ejczJWuP3kJkYsb1aWfHStiPC5fwiQ2Z4RY9P",
+      "initialPrice": 30.2,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "CBU51fAhe9ydp1yUVCVoVfW3HyoesuT5xyYV5phMCZm8",
+      "initialPrice": 30.1,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "CfRFGGomyxoLMKaTTptr4iF4y1RDu3QESvDi65f8eqVf",
+      "initialPrice": 30.1,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "G498NY38Jxdab9BbGfaKiHze1pcr94ZLqusDoxUwoWsm",
+      "initialPrice": 30,
+      "nftCount": 17,
+      "type": "bid"
+    },
+    {
+      "pubkey": "EiKvURYTxCAxbTsLzgD4QkPh8u5pEA7GpsZYyvV9Qf4H",
+      "initialPrice": 30,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "EincVX4AS73AF996NhpuKojFH7GgYjp8ATyr1xsqTgC",
+      "initialPrice": 30,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "4eeuhMMhNkVQoTiVw1c5trPCPTYdZTwnPPCp1pYEYwGd",
+      "initialPrice": 30,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "6Ny9EFK4JztVuGWPCWgYjx9XkKLvWJiHht3bNjc7qfmD",
+      "initialPrice": 30,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "Az2pqNCZreJgwzy376HxKg2jTeGApKz1CHh23SaabYzw",
+      "initialPrice": 30,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "FiuYoRAQNcteita775RN4nwHH9EBSfF1AMCMhxoeQTYz",
+      "initialPrice": 30,
+      "nftCount": 3,
+      "type": "bid"
+    },
+    {
+      "pubkey": "3jfwmaJaFE3Bd2SpfDKaRmqvDXHw2ggtxgSyTGF3LAbc",
+      "initialPrice": 29.99,
+      "nftCount": 2,
+      "type": "bid"
+    },
+    {
+      "pubkey": "4h8YcxZHLWwMM5zLmhT7eMg9AbyWJj12gFWgFd9YdMa5",
+      "initialPrice": 29.7000101,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "8wKKb1p24Y1i1ew3hq8j4TBt9ydJzfNtK5do8L6xaboo",
+      "initialPrice": 29.7,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "HdPi5tHrkj3NFsptYHdsNvfynJamyF7Xf8ohWmRuTwDc",
+      "initialPrice": 29.000000001,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "9nDfVxdk7QEoKREoYvzUpZ2oJMroupAetGG9mGWbcakG",
+      "initialPrice": 29,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "8B8CrqwnsjtJzZyj5irV9s3cEoeHbKgF51CPezJm9Rnp",
+      "initialPrice": 29,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "FCPqcz58ta8BE8mc8JapYFQ7TXAQ7aSqwpK12ybpscyt",
+      "initialPrice": 28,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "8kLUQLK1UyLoCD5cFMgLzm5nNmf3o4QAma73FPnWQo2z",
+      "initialPrice": 27.5,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "Gpkx1BhQFQS9kPi31DgnfN36zk6GCC3wiZbghJdRvPxa",
+      "initialPrice": 27.11,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "Adw3ecYUAcP7i9DmbdnyS8NVJBZkBXQgVmKRXxBkbLTR",
+      "initialPrice": 27.1,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "2ac7PTprWejbCZoe2oSWntSK15R9E3Jw5m8pUmECWStV",
+      "initialPrice": 25.232,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "8nTZ5xWr6yjjMwua8QRPJnGFWNzDdXphAo34jNhhepgf",
+      "initialPrice": 25.000000001,
+      "nftCount": 5,
+      "type": "bid"
+    },
+    {
+      "pubkey": "EURB3abt5zBxpeNA88xFxcxZSRjgL3pTRsk4kSd9YQAY",
+      "initialPrice": 25,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "HoRdicBdxwrAP2GvDC7Y1LK6gu2y3TgwYEPdFusFajnB",
+      "initialPrice": 25,
+      "nftCount": 5,
+      "type": "bid"
+    },
+    {
+      "pubkey": "6aBe8JjYtpZFtnxvhQ2t9hx8bbfGrbhg5tSx4mxCFPAr",
+      "initialPrice": 25,
+      "nftCount": 5,
+      "type": "bid"
+    },
+    {
+      "pubkey": "2Z9unn4vJopGP8u9d8xMTLvnFRS2HaAowE5uZZPeDjhE",
+      "initialPrice": 24.000000001,
+      "nftCount": 3,
+      "type": "bid"
+    },
+    {
+      "pubkey": "3YM59dYGVjtrTqwTtE7F982EKHbdsFGAkhvJQtYZvcFk",
+      "initialPrice": 24,
+      "nftCount": 2,
+      "type": "bid"
+    },
+    {
+      "pubkey": "9CjzWFiPGCY6VWR84FhXmwocZ5A7xWtTAUPbG5WpAqn2",
+      "initialPrice": 18,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "EXR77t9QUK8s4M5ufHzBhYWqnHNoxxDRpSeAZfYTaSpo",
+      "initialPrice": 17.02,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "AFnwhtbHL8YZxnHcR3cSrTNPeUsZVbdG6iVt34Koifv8",
+      "initialPrice": 10,
+      "nftCount": 7,
+      "type": "bid"
+    },
+    {
+      "pubkey": "CkoaN7TCoMAfqBMcWaav47maHNqAkLFKWzt8NQb5H7Dq",
+      "initialPrice": 8.7,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "2qQ6QXCrRUuavRLU3mMRp63WJXDcemd8Ck2co7S8QhBX",
+      "initialPrice": 1,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "kimhyPZ6YzkmjUzYC7aHs1ffHV7JQVK3Wn6VVHW8zKj",
+      "initialPrice": 1,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "k9iYPo5L4ba18bTepS8FGTRoKf6z2zfSS7D5pmUS4cd",
+      "initialPrice": 1,
+      "nftCount": 891,
+      "type": "bid"
+    },
+    {
+      "pubkey": "EKK4K48CNBvJghZ9roeoe1DLMmbrn7djgf6PLyQwQuw7",
+      "initialPrice": 0.1,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "2MdETpzRNGGkY3C9rJwR77JXtKyBh9ZkQzmizcDvcFsi",
+      "initialPrice": 0.069,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "HYZD2VoAAwmZ4znYrFipPjKYPPJVpc1uStFvdCLo8bGp",
+      "initialPrice": 0.01,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "BLkk5FZwrYYANtrWns8a78oHyRX8rwbvSR9kXC3ndqgc",
+      "initialPrice": 0.01,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "9iKgdk1mXKZqxpzGBTpXRy4ToeW6KvpD3boyJ1UX6GDb",
+      "initialPrice": 0.01,
+      "nftCount": 1,
+      "type": "bid"
+    },
+    {
+      "pubkey": "GSq2AC9Sgc1LVcSg43koFu2CpcW1i8UV2An1Sc48VrUm",
+      "initialPrice": 0.01,
+      "nftCount": 1,
+      "type": "bid"
+    }
+  ],
+  "asks": [
+    {
+      "pubkey": "G63H2foktcSvFjPkNRLDwdom5QyNAdefchjsSK8Nc8S1",
+      "initialPrice": 33.305,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "DqKLN4kMhQjfzGLZHTbKsambBwMQ3N7N4YT7cFz6iqPV",
+      "initialPrice": 33.305,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "3sAnevfYB5ZnoFa42WVPXBWmQkXhfHtKTazPLbx9FKRe",
+      "initialPrice": 33.305,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "5r9kdVyYfjDsJsY7xUEBqczy2AbZa8cywxu2WCcSRmJy",
+      "initialPrice": 33.305,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "4YQCeRUqhbfx1AeAzWDtXS9LfVqrcvx6oPV9R6D1K9r7",
+      "initialPrice": 33.305,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "GuSvzLb7K3mwbDUHodYzMk76KaugUejZEghn7jG1vsrK",
+      "initialPrice": 33.305000008,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "Gib1Fb7eTajWHAmtbiH6B7cCGgRNAZ3sokRzvtJP75bf",
+      "initialPrice": 33.439000001,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "EAFh7nxr982wFQvzpRbXw3fStGhHhsf7fe1Wg6gY36gX",
+      "initialPrice": 33.44,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "Dz9Xx9uRHP4ds9FxVHBX9TZy2KwHtwvrbX3DCL1JpxCK",
+      "initialPrice": 33.44,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "Gkrwz1ZkxDpkn1xByqY5FrRCAbL95825bgFegGWo3zp",
+      "initialPrice": 33.45,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "GBPk2JZATeDeLcpLFcovrci9uk8MGXcUsCF9TwQEZqa",
+      "initialPrice": 33.5,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "2A8NMfaVozitJJSAGV8uVGdQnBU81JDCpqyb6Tk2zgJn",
+      "initialPrice": 33.7,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "BqdVqoTjADqfMVChy5Yadv9KVBuXTcGdRRcmwiGLyEpz",
+      "initialPrice": 33.949,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "CiyPkqnACQu61UgnBwp159jpexqz6dRRG9AKy92TNGPt",
+      "initialPrice": 33.95,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "BuLadi1d3rYDiNpui8xNvX4aUt4tV8AVJ4aTsZcCYNRA",
+      "initialPrice": 34,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "6jWSR6MfqPm5j91ZTGkm1crtkZr7rWAy7VvQvWREh38d",
+      "initialPrice": 34.29,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "kXoQh3uKGv1mLpkoKYu6a1SEKJqwSWKswSJtLMaQwcT",
+      "initialPrice": 34.29,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "7fWZgzLewSrQWUuPnFSJUumqAfBjniXN6vb9oyTkSXVu",
+      "initialPrice": 34.3,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "GU9JCrnQm2esmjCt8iSSh2cFQqPLtrvJa3k4aSi1YcWA",
+      "initialPrice": 34.345,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "2G7NFqZWiWRqBSqcDoRmbn4YrMkscdYjWgVPevtmzump",
+      "initialPrice": 34.345,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "66yiacTrr5cKDbNPQ5nyHU2FC9RQgn1Cud58tnFyYr2z",
+      "initialPrice": 34.345,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "GunP75t3d6Q1MERCbm1q8Z3PiVMDt7Q4E2SY2gHnPHbf",
+      "initialPrice": 34.345,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "dxAimbkVjq1Ut6xBgeDhegA6RPTdSq8sVPagzvQoVRz",
+      "initialPrice": 34.345,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "5woPy53uwUxBScLUpYJqCKLQchGTFfx2e1TKXwTBwMT2",
+      "initialPrice": 34.345,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "5EGKvVyUrFYK6JdcgicTRizkLNCeQH1fCRQ7rNqkQ3Mh",
+      "initialPrice": 34.345,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "8gomPsWYTrNSCZWwFy3gEQq5SGS9pmuwQwNjNMoMEbyE",
+      "initialPrice": 34.345,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "ErRmyYA1gkWDEvDMtSMdAAAdXXCWT4xHAtpcJEK2u9nC",
+      "initialPrice": 34.345,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "FU7Dmo6QwtgDSTj538nK7YPuvSCkr2QMAkSM1b54KYoR",
+      "initialPrice": 34.345,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "96cECj8P64PJQVkYzUWMWvuRA88qEqHc5bw3m8yxxK77",
+      "initialPrice": 34.345,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "4Kqw4zRSMQbbXB32vHGTFRQfxTaVX6e7YsvNHAf4ZL5V",
+      "initialPrice": 34.345,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "7G6ULDMdpyqDE2w3txwxnxr3WPN72MeG1W7WxXXJonMS",
+      "initialPrice": 34.4,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "3RAn7UjBnZMN2FYVTgbNkm7bb87JJjagNVNZVcPqhtJj",
+      "initialPrice": 34.9,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "AnkGtprjcT3mUhZCNnXFbTQkmu8D3jEZM76e6iLTVvv2",
+      "initialPrice": 34.99,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "7wxk6VB8wW7oErdxrGCMkaeuJiaNUfxAzMEPz1zMbFc7",
+      "initialPrice": 35,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "BUbM5i1yBRseRYQU9nASTADM9NmKk9W5N6azfg4SqBcX",
+      "initialPrice": 35,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "3i2SMdGGN3SGGHfJQhy7P4JJsBNB8RAVmTdQeBE3kz9a",
+      "initialPrice": 35,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "FgXpPGc4AvfhnyJ5Bkm8BusGc8sgFh83Ue991bmcjada",
+      "initialPrice": 35,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "3GR8FnPTFcr2QJbX1dSCrv8QRftG3UkwyzUa47S5rha6",
+      "initialPrice": 35,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "8ueKRSpFNT1LjS2SSg3htBApdBwb25kRnqrjNCScGtCY",
+      "initialPrice": 35.5,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "yyHTKgzvQtAVLXLXkWXLSCRq5jWEnX48FCiegtncAM8",
+      "initialPrice": 36,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "3rMhneYierk1fpRmnMukEnPeko5jWaczbDWeozwYoj3s",
+      "initialPrice": 36,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "HhuasWDmUR4JyCAZJdtoEtvhTxfei1L4Kp5KnN1Z4PSf",
+      "initialPrice": 36.01,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "7Rp5xctgFSSuvtbmUjtf9XuXNq1MW9PYc7vDEdcPgyn5",
+      "initialPrice": 36.8,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "FMXA1JsUhDUUpfRve3Joz2CqaYUKUyFDdAr3kmNw2if6",
+      "initialPrice": 36.9,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "4QhnGf8uwJZK6pCS52d9VvUiqhgqPngMpdbcxeHPoJRx",
+      "initialPrice": 36.99,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "5Jp6VGamVv7s3sv2LjXAEmYXwVU49XWN3D2BVuKxEapJ",
+      "initialPrice": 37,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "BvHzZvhU7Zm3SwBQtiFDbBrTq1LnEp87UJ1Jko9yFvKn",
+      "initialPrice": 37.2,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "819mDGJkAYvHn95KXrkCwR5UhVZyWh3Au5zwdFf31pVu",
+      "initialPrice": 37.5,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "7qdv8JRoRw4Xu9Mb4PKKD5wTqy12DY7R9Hjd5tWipMDV",
+      "initialPrice": 38,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "DTu3ZgbXtRuDESxYRFgn6cJ1bmvWaRCbHLiQUcAP9DgA",
+      "initialPrice": 38.6,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "Ht5JN5AiwiVh7RDZd3XA98SR4octp6YFwX7CDXY8kGXE",
+      "initialPrice": 39,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "6RQU4eyBUisr3m5sQhNrTWpTbfqH8BTatVphY41P6FtX",
+      "initialPrice": 39.9354,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "Hk4MShbwRDEaWv9vjMoParT63mW7WxuVnS8jsrGk15pC",
+      "initialPrice": 40,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "CSU7dPVqrSiHJx8tDGDhbTpUoHYja8DvLREoBxTiw1ka",
+      "initialPrice": 40.3,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "9JitQLwtu5C1LruVkGvymFtKRWBMgqyGjCeznXkWyG4V",
+      "initialPrice": 40.5,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "73WerxByGb98ArkQB4qyy6YTXRzB46ppjdukVVRQP4vw",
+      "initialPrice": 42,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "4KJQsijQJPQiME73Mysw2cp4DyKP61TfuTf6fRJMDZam",
+      "initialPrice": 42.5,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "5EyLpCVaFNTUZagZwnLLnUYVVQp7Vkf2aoe4EpFFQfEV",
+      "initialPrice": 42.5,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "5nCBfkitrcbmrz5GG9BVXCbgRQSHem15GgyGC5Z2jQAh",
+      "initialPrice": 42.6,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "B43kAfaTNjSsDJgYC9Bc7VrotxNsPYDfQkHUBT3k34R8",
+      "initialPrice": 43.285,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "BLQLVX8UWaFvLBGFS7G5zoK8c1kS7brEj8qRsAtJqz7J",
+      "initialPrice": 43.285,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "4mia34THV29Awck5xESgXmNymQBF15FTJTFWpfZbKZBK",
+      "initialPrice": 43.285,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "Dn5DXkHZVq4ZfnX1FhCsAU84ntcLhu9HCP2Qe8bTTFnL",
+      "initialPrice": 43.285,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "DwMqWR7K8bAKLfWuR6QdNDY33DUjEdbKgNsESnZ5Zhw9",
+      "initialPrice": 43.285,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "h69aQe9XJFuvJsRgVx7YEZPupk9CoaFUgBv1izGUEJ3",
+      "initialPrice": 43.285,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "Fo6XJwExHzSJhDHdB24h6TEW5A4VnLSKrHw4B4wmk2uS",
+      "initialPrice": 43.285,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "CB3moGvRrsFvBaRTqJSqau9otPCahadtos3g5qCkSGgy",
+      "initialPrice": 43.285,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "5A4tJVPdMV3GQ9nPpG1oADU1tVhHDKavSpUnuu8nXSQk",
+      "initialPrice": 43.285,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "F9RafBdNybYvwz7qYyS837mLVW7mYxbWHWe1xH9qjrfs",
+      "initialPrice": 43.285,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "CSDTUc5abTngsVdNs2jF6UoUDTgXTd6Jr3esoLvr97wY",
+      "initialPrice": 43.41,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "CuJNbJNVdG4pKjiUafpLx2VtqFWdw6bPAd5o3uDDDeqk",
+      "initialPrice": 44,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "BsMAHxrXqhwte3jFXSsWBefZDZihRpWhJAi5wWMqSdrx",
+      "initialPrice": 44,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "C9EvFYTRxU2f9AaL4hJj73kSaRWrc3MC4znZGKajyacn",
+      "initialPrice": 45,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "6SfQvRXGxEhF9J7yi7n3emmBNobULQViRhZHvkXRkmfE",
+      "initialPrice": 45,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "Gvmtwvz2aewqt1hqwZbeZPmWNp4NvpwcNkN7BGzfaJB4",
+      "initialPrice": 45,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "A7r2Ty5d77TqXDaBUawKSQ8Q1XLDQ8CeqLTpUykPepG4",
+      "initialPrice": 45.35,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "B7BVVAwGd1EfgFGA2tGv26JNC1e7BeXZp639RfAa8hys",
+      "initialPrice": 46,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "6Kr28iFs3Kndc1yWUHU6Tujgk4K4TWp6Z5MQkUGJ44sk",
+      "initialPrice": 46,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "4QmFTmQjW4ygwz8j5FEt3sxqjW7B7H2P5BcyKYrxHPph",
+      "initialPrice": 46.8,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "H6NnB6p3NKc1AAieAhETV1RLbrHWcGAFbBvCNh69MW6b",
+      "initialPrice": 47,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "2R8Tndpaj9TNELut95EjpKC5SyvXh3vXbMXhpXbYU1i8",
+      "initialPrice": 47,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "8mF7yL94VhPxVPUPdENzYFZSqXbNF434rFc8dAiRYMTS",
+      "initialPrice": 47.2,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "CPX89wvsBE6ZZcbqwaSsGvKjw95gJoLDSTHQMwnvGvZo",
+      "initialPrice": 47.29,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "AyzTciuWHdF5CiA9XnFrGHwzdsksNAkYbUqsWUrYaGbs",
+      "initialPrice": 47.8,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "7aG3Ux5RAV5KdEv18p3xePgcBnXcd4xUCPipg7TbSXQx",
+      "initialPrice": 47.9,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "3bNbCkSVLK4AipjpQNvFUA7vfzzNHmirM3pupGo9ABKD",
+      "initialPrice": 48.9,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "Bf1mWGxh1VPkDnaaQs2SV8jYWr3gUquFdANXBenoXfVA",
+      "initialPrice": 49,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "2h9PV2KR6CXPGmvFUnKidTdcFp9nzZzHqPYRZH7AkV9q",
+      "initialPrice": 49.2,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "FQkUbbZGKwaatUc8uxDAREsTwYCN8q6kYrZ199SwyfK6",
+      "initialPrice": 49.5,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "2tKCrLUFurhr33m8hdurYJgnbG34fnYrxmAKgNi46PrP",
+      "initialPrice": 50,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "62Xpg5zUJLF8zVrebwPVKVGHyqbcSw6KZiTuF6boE2Tp",
+      "initialPrice": 50,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "FaELZmC56hPkXpKd9vWev33SiNejStoeHxBwVQGDDFjJ",
+      "initialPrice": 50,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "GppiKBpVsNJBH7mMNb2XZ48GguDR62eyV2Lj7FwJhExK",
+      "initialPrice": 50,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "Gdr3g6ZKEygEmt7xck9gmnA9kMPiDE21z3hFXiZMQSEH",
+      "initialPrice": 50,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "SB7KSax3GFsWxcbDxAD1XEYHnvCtkbA6TYqfzZKj5NJ",
+      "initialPrice": 50,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "EdWgWWDJhFGoxJ8wjdvwufSsfB4XqmgoWtgkokHaDdzC",
+      "initialPrice": 50,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "6ryXTdcDGTvp8janeEBDo8UJ9hcZ1TkLJ1K37c7Skf3u",
+      "initialPrice": 50.1,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "84Z2efqs1zV1wA4oibfjtDmKauceEqDTzwoC297hg2MP",
+      "initialPrice": 50.241,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "AmNeFZtdy14rvFHgZajUPp5q82pALXZJ9P8NpTMQggv5",
+      "initialPrice": 50.241,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "FF1GHi6cpKGLXnz7zRmArmHCg9HbdALR6tzZx39KGFM6",
+      "initialPrice": 50.241,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "EUJVmYMiRae7jCLebcH9uzEZNo4TQ4r7vbXtCb99JWhw",
+      "initialPrice": 50.241,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "xSDbSoLgxSpRjF4SkwnwdbFgLCCuzDvCxn3zhGU2tXn",
+      "initialPrice": 50.241,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "9xdyCyAFArTzWLE7DoSTpMM5F9xs6RU3WagmK7Di2ggH",
+      "initialPrice": 51.5,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "57kjYysTdHUzWZ4s7ceMMENrQ7yZFJxM9hjuBWLeQjGm",
+      "initialPrice": 51.5,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "8AXUQV6qjmQ1ZanU2UpWxK64giP2795QYEsBroNJBChM",
+      "initialPrice": 52,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "B2EzETgrzothu44PVtXmzAGo3MJHNuKa8Nt9q2dJNXRa",
+      "initialPrice": 52,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "74Wdk9XgidcMshhorTBi8PQN8QCMS7cVWwqnTAV18uKE",
+      "initialPrice": 53.35,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "GGmuZKt41WJNCv5Mk1H6fkXhvcMLDQDDgttnyLi2dTq8",
+      "initialPrice": 54,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "AMCWkwXyGMAy3RtR6oRSjMW5dA6R2eSZK2wKHzfmBwDv",
+      "initialPrice": 54,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "6cRzWeeSGBPJd9GqyW8HKdc9cBh2uuL19pEMCbk59cnS",
+      "initialPrice": 54,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "9r4QLPsXEJH1E5oqNJ5vyrQdBjHbpHLne8CG9NsNBTnA",
+      "initialPrice": 54.8,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "DH5eY11MeVqxv6sBkkrbtR93RFnkhNygLWd71L54e4qN",
+      "initialPrice": 55,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "4zFYo6QxDfPjvneoGM1NMZVZa1BEWp9tkXmjNvYdpZXR",
+      "initialPrice": 55,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "28s5LcgGwdqHXvaSAjhxD3jahvC8P2GcRRCT47CuC4iC",
+      "initialPrice": 55.35,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "4wNXBMfbYe9c5VX8sRLYeUNpEwBtWMNdHgFF5LoGBWYt",
+      "initialPrice": 55.5,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "DJoKKRaoWtg8FX5aciGjvq1xhvofFkYLJm7sU7Xnq56u",
+      "initialPrice": 56,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "CUbPdwUsXMg2zWZC5BAKHRFqQRnSq3wNyjQSQ1hCdsHK",
+      "initialPrice": 58,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "HnUC8kNz73GyqZwiQmnNRRJaNqshoJBw3xFWMWDSCEhk",
+      "initialPrice": 59,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "45HMHqcDYymQi2y5oM31FmZdUpiqBqNXrndgHw1Vbimq",
+      "initialPrice": 59.975,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "5FicG6V2tgX5rNDwnwNeDjf2MM1c1aaSrxSEo9evscDq",
+      "initialPrice": 61,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "72SyUJTyFymu8rRHgdGzMsFsgfGbw56ug3GrEGp5XxiH",
+      "initialPrice": 62,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "54QU5iR5u6ndNfRC8FpX4czvAjxPDVX9dh2LAcXeKp4s",
+      "initialPrice": 62,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "KsyjyLVWRjZxHGo437EmCvRYP5fJKeUmwWGgGY91rQS",
+      "initialPrice": 62,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "7oJgiH4dD4YaxjJFJ4FZYxZNyr3M43be1k1t4XvAPzMn",
+      "initialPrice": 63,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "5Urc5sfLKdhezk6gqLPep4EqgoK4LjQJC3rRzDC3X6b6",
+      "initialPrice": 63,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "5omPCnxzV5zqkiK67mSkLUagwr7rMAXX3XM9hHAP8Wxd",
+      "initialPrice": 64,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "3mKBMtayVsfmmaBMvsLgKJdk9QCzLMVdbP6Tn9GNcZMe",
+      "initialPrice": 64,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "5sZs5oiGtLEXMH6WzWDGMvyo7vfBgtKqTLe4Kjwj317n",
+      "initialPrice": 65,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "45ZvSszP2F5Vb5C18oZHo4XgtopXfGQVPfnPz2wW1uMo",
+      "initialPrice": 65,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "AzUvwTWBgU7nm98PbV74ZTVGzMetN6Zvv3ZqFz9shEki",
+      "initialPrice": 65.9,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "7DPHwFcF6TauUYJby6xCVFH8YMAMeaiLJZNBZd7wrwEh",
+      "initialPrice": 66.1,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "GqypBUFFZNrb8TxLrx9yxChwSJyaZVd9pgYFbJBQvg82",
+      "initialPrice": 69.3,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "Fuza92AHDJu16RFFtQZ1hcGssdxCqk1vjeZhfVuxbj11",
+      "initialPrice": 70,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "8uiJUF3VMoUkx8xiuAoU1PaD5ks3LAQqbxXuGB6VPPg2",
+      "initialPrice": 71.955,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "9iBHtJz1np1UGRNGrmyX8oxKndwukmtMQpyNXKVHssFV",
+      "initialPrice": 73,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "FTDM2d9EHkgLD7GByzRiYoGby6Qb5bd5wUfAE1JwPF9S",
+      "initialPrice": 73,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "7gQ9HNk2NcGgn2z7spMjYUNrB5JPyRHNAZtqFfMjhrE7",
+      "initialPrice": 73,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "FkG8UuQNymEQThApxF7PS6c4N9EXY8EWxCsfYH5iocGX",
+      "initialPrice": 74,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "FYPEzqiz3nifygUdnAGDZ1MBR1XMi6W6cdAMUCtsB6v",
+      "initialPrice": 74.98,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "92e54BswWPq21XxWWgRcatd6P7x9rYWu8dRLjA3kJWyn",
+      "initialPrice": 75,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "7tfFD98Gp5NRP4B4WCyxohicMzWBQES3SNEjxsaMZsmy",
+      "initialPrice": 75,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "2gYnuR5A4UmLN6NbewhGTMvMrmWkB2ZBJJ8vZxGnCcu9",
+      "initialPrice": 75,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "AzRshas7pExwFQCxd6TfTCHmkzZjUGmBxmCRBdqRQ21f",
+      "initialPrice": 75,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "AXyKZNzkRKwFVxfcmHSKL7AAobpEWEYP7G2GRUgo1ACH",
+      "initialPrice": 75,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "B3KBddzBzsXdD48CFuhMXujqwNV7wSDrg7iJCFmSnMdB",
+      "initialPrice": 75.68,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "BawScwoTBLBfN74zccNrh6J3A5wUZDuXYQdodG6J9tcd",
+      "initialPrice": 79,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "rrGSxed5MmNQSDpBCPHFtjWr5jYf5LzMfnNmBA8sfke",
+      "initialPrice": 79.99,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "5NJwLXcrqpbPHSLyjmRPHxUWmhqb9Kawe6f1uyK7uxPc",
+      "initialPrice": 80,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "GYB7xQdsNeF6jghEfqGtzvsupsvSay97yUZ5xamb4JZr",
+      "initialPrice": 80,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "WDvTi59ShZ1TmGCBifhZWBMkdiYKiLeDveQvx1ug9yP",
+      "initialPrice": 82,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "6sKtXDGbQrS7h7qB43G7gK8FrjufgEJMMNvEgGNF2iFN",
+      "initialPrice": 85,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "Ghsd2huFc8ZJcBki3x3ynpGUvjhko8x67mRjyzaerKNr",
+      "initialPrice": 86,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "JBSvFeU6mgsC7bssY3G1BzNuU72NBF5oP51sUMgMinNs",
+      "initialPrice": 88,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "GaEY8ZSmXaYvb3Zc8vG6JoLSG2TV5W5awX7uE2Y6rvMQ",
+      "initialPrice": 90,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "4JHPsM2whfD6wg2Rvk7bFTRsZfEqxuYfadzqKYhsYwRN",
+      "initialPrice": 96.499,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "GNLCifbj4TxXA7qPKavAjKxp1JLRhzHFFMwHrk5vvEu9",
+      "initialPrice": 96.69,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "FoX5FUiU3mW23WWW1DqhZJxjhEj47w6Vw4bCJpZQkBWS",
+      "initialPrice": 98.2,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "8phZp5suB8p5JdbQvrxWFd4MjQWQ2BFAWutNgBjwArb3",
+      "initialPrice": 99,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "4JbUF6KyvRn56fDVHAvDTqvJjdk2LUgugyPodLcihynP",
+      "initialPrice": 100,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "J1Hi2cRbWzz7r5cN4X5Mt6BMbmRiQN75NMZpESqWdYjX",
+      "initialPrice": 100,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "AZh5CR93HfyAb5oCGjuqhAkwKEDinTybkJuUjmnoi3D2",
+      "initialPrice": 106,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "1LieY54XGP7goMGJJi48GYFk9Bjw2pezMamDZbLybyQ",
+      "initialPrice": 110,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "F1U4G4Kumwk3sfZmNrMLhTUiPeSwvR4MMHvrUARtbHGW",
+      "initialPrice": 113,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "FXYb7jSMJ9KbtCmx1VoYJnBrubfnmdBuQqe8aqSHyccU",
+      "initialPrice": 113,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "8kptHc4ZCQXBWdqbV8sjZBsGd3oYf7DjKxQ4DHLi6m1k",
+      "initialPrice": 115.08,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "CdhTLomBJgmAH5zRduyyD4i6Xddg63apDxsuEtbgBHZd",
+      "initialPrice": 120,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "7mEd2gbr9chUDsdnGR5asiC98pn3mg5wkmdpw1wXZivo",
+      "initialPrice": 125,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "AKgPQFbU8fpb96rKeoR6wF5oCGy8rnVo8JxKQk3b3vDE",
+      "initialPrice": 125,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "BLtgDhs7T7Y5yQxjFQt1nYzZQUyCkPfRqWiWPX9WZ2YA",
+      "initialPrice": 132.38,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "BB2aF78ez4sxafXMEDvTyvqaJpfLVZFVmYKPXZtJSaxw",
+      "initialPrice": 133.68,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "7nm5ax8a3FUHYyc4xj3pqvZGdbjvVNPRoS5YU4poBvPB",
+      "initialPrice": 136.954,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "D9zz9PWgqao3jFbbyXAtw8vfThUs2HZhXwCHDwA2BgxQ",
+      "initialPrice": 140,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "AkhVbMdWQjYvFRtVizSr5Lw2Y5HGqmg4TdqW7ryqd5xd",
+      "initialPrice": 140.4,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "9AEabAbm1kjUStTPWGt4pP8yFpVpJGLGj3ADNX8xfKh3",
+      "initialPrice": 142,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "XnVEVkQeZY84zyq6SKNmAvKbEqMqZoPGntiQkdBZVA4",
+      "initialPrice": 142.69,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "2q8EGdJ5tLSas2brSaiw7rw1kb1GdepX9K57P8tfKdpt",
+      "initialPrice": 145,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "HBPMpEGhryByYvAxZQC6W8qigrc1ru6jugWKNrDxcNun",
+      "initialPrice": 149,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "BVSkM1o9DpN9SBpwSfVpemYY4XeFwDUUZfZnMKwb6EVi",
+      "initialPrice": 150,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "8eMQ7UW1TenTVSFPEQjM3mEwLJS2qPXdncrVB3wBZJ9p",
+      "initialPrice": 150,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "HiWTYw3rD3VzzmRnwKM9R6FVsXBs2HnnWymZAjWF9KkW",
+      "initialPrice": 150,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "CreTVW27GzWHecLw99CtVp6TSEJjNZHQF1ZW597qNDt1",
+      "initialPrice": 150,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "ArmQYy4RzFZPNnvxoJ8tUa4spopgBKeeaadWVwiJxST8",
+      "initialPrice": 150,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "4T3C2M7uj642eNSWZeQu3CRvVrETaDctGX9rtmTsem4U",
+      "initialPrice": 150,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "HANeQBfkWVBEnqMLWNkBYDfN9GERLqy6ZaRcsDf7uoAC",
+      "initialPrice": 150,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "Du3GbjV6ZqtVuxyPYs1fyiTj3EcawU9EzF27jHrVhHVB",
+      "initialPrice": 152,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "4hq24N7LQKtnBmw5SAWf2vPFACxArzgzX8g4ipCdddvm",
+      "initialPrice": 155,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "3SDkqTH571ticAHcUbXfc8Ze1n9EdNUTFENWY5pamaAM",
+      "initialPrice": 175,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "Ae5ZPmzQprBeyW4StYRbkfGnhrzUKsTGVjMUwxEARKhs",
+      "initialPrice": 175,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "HhbxzDnBY6zM5nZLbhKs31mj8Qqf6oXYMzK9AvDVKbHn",
+      "initialPrice": 175,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "HvfJE9KftJevavFPwa9FE8V33ciTpXKHY7eCJVMt6wG",
+      "initialPrice": 175,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "9hJhp5k6DVm3JPkeKeF4snkq3xyngFuHEwPF3ue3fMjT",
+      "initialPrice": 180,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "7kHrgpMBrBXPnLr1TuKpNqPGSKUFtoVtEYZ2Sx1zKm1X",
+      "initialPrice": 181.7,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "BMVruciuo6FBt9H2P3KaFugFn87a5xQ56VHqzuaRTB18",
+      "initialPrice": 189,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "36iCtC8kghtv92k85nrHNbLEjc6e282DLKFhA8bLGwD8",
+      "initialPrice": 189,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "FYDCEtDgajQqZtkUsPwfpFY7aFL9z2juU1q4f2KpD9oL",
+      "initialPrice": 189.212,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "6vrGhM7BmCMGcWQX9wSW87MkLQWqDkMsQdEAjniwsBFA",
+      "initialPrice": 200,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "6mBrXb6cAWjY7ms8yjcspuw4yKv8hUdz82ksE6NJiaW4",
+      "initialPrice": 200,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "8u5Gzq6zYjVSBoYqB3EisMeZVezrtaLeQJyvHHsanLm5",
+      "initialPrice": 200,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "2Swd1TRSVKH4nzwaYLMWHictD8Tm6uKiVrJZA66utvna",
+      "initialPrice": 200,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "7vwRjeZy8fPDYMc1M1eYezqnJJcWn1L8pcovhYNaBMzB",
+      "initialPrice": 200,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "FSgBV3oQqKz6CV7fjTdij9DV4gH9pSibt3e83yRfX9TA",
+      "initialPrice": 200,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "4A6LSWoWka6rHnBAaxby5N6RLNzozoiMKDDBDB18fsix",
+      "initialPrice": 200,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "5PDG41zuDvn1cDccTSJLtzEvnezNLx38SvzoNKf2gYED",
+      "initialPrice": 200,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "vwx9jMzn8T5N6gSVuKUVZTDewuCUUFpRSXXVzaS28MD",
+      "initialPrice": 205,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "CYgStj3WwH4mNz2SXYCi7po8FCV8BAq8oGQ1wPGr9kwF",
+      "initialPrice": 208.13,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "F4MHvLMji8Y67jjCdeQjrV7R5SEbCnkky5nAaXZ2gJgX",
+      "initialPrice": 208.13,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "8CVhbTd7wsndzVjcaFnnkp1SzWLZ26BmbvLRtuur6s6Z",
+      "initialPrice": 210,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "C23SD62KqYVcWuFjubj8vanxicJSTw5cE1XfjU92EeDp",
+      "initialPrice": 210,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "Hrj5d67oZa9Za2MueVtGsdN7u2j8rWraUhTxxk9ccz8D",
+      "initialPrice": 212,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "ELqdkVwAcz4eUDoAfGNh7hJy49y4Y9SHVJCyCX5YMfM1",
+      "initialPrice": 213,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "7EuHwGUebRfxizkCpHaak6ygva2bNgBoQhSMxzVE8rut",
+      "initialPrice": 215,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "54cKto2qcgjH9CJhM8neLes2MsWa5VJ3Gs9jVNresD8c",
+      "initialPrice": 220,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "C2BKVGGcKMu1ngXgWwWwcPMwaqmNQaNzUG9cuYEm3znH",
+      "initialPrice": 225,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "HEGkM7Zdru6NMpyBsXmc9TazsppxdQpBpZXmiTBzkERb",
+      "initialPrice": 225,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "EhPfsqBw4TtxTwCspA7FCBGioDhQCkgTtNFDy4XixXBs",
+      "initialPrice": 225,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "2RgfLwNNP1NqzLWUDVnAuJE2K4ULhrdiPM17cvoNwNeU",
+      "initialPrice": 225,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "4G9hYqJuBgoVGC8BxC6pqM6Choj4dfzowzabEr6eZNbM",
+      "initialPrice": 225,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "KYU5H8rXgLCmeNMJp7TtRiqADwxd57KN2zkCrJQGGgp",
+      "initialPrice": 230,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "Ak7nWxf7mX2AHm8yxmM8sFxPqKVPDzN6JiEMCaUtSTai",
+      "initialPrice": 230,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "8dFZMUh81i2hmtr4Qx6AapzPDhx6mutf5QJdfkTGAHgs",
+      "initialPrice": 235,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "ByT5Qx17F68JRd8PEpDwMKJHMgekLTGFBPM9sXNUMoE3",
+      "initialPrice": 236.52,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "HYJUhXRLXpxXFPLjkE2B8MxZfs72nYtjoJuERaLQCgRi",
+      "initialPrice": 240,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "6YwsLPzXjwHayFpbKdD3VtCXCbQuhmjRpER71vx7UPv5",
+      "initialPrice": 245,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "FbbZFV5bgLRMaWdh4BmHTWztRfAggNYxQi9kL3DhmgVe",
+      "initialPrice": 250,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "8aSWZydMXbG3fokDtCoJosdKgqxGMU5ooSFXvwn3D4tz",
+      "initialPrice": 250,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "36zCMuipw2UiwjcG2VDzXvNYfiFu3BDSMs3tEYHrwSRA",
+      "initialPrice": 250,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "ADRDLzkERoYKuDtKiZHvKeiQcnVsZCSgJBFxVVwsET1F",
+      "initialPrice": 250,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "A4spYNUBcv2mH2ndkCwQMyfYsAntuSiRPYsPVHEjCQis",
+      "initialPrice": 250,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "DZ8Wm2M14a6aQbYC59xS8KCZa4BJhX5gd135U8UQMdnk",
+      "initialPrice": 250,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "7QkX7N3hgrzWN6WcyUYTGfqyeSSiFUQUYTqhN5FMzSeW",
+      "initialPrice": 250,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "8xUyKKuWC5NWCPQzSbAaDoTha1Xk4jmRs7rkxkBv8mcJ",
+      "initialPrice": 275,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "BRDJppqnz3tpyH7121CXVCvkBpkBDq7F8CTkDMGF5Z6y",
+      "initialPrice": 275,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "A37f4rshQ8pMT6v88D1Ahg3krntQxhoHkZzyUzVUx693",
+      "initialPrice": 290,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "3qrgFoMnjLeLbmgzkyBBTXBZVNK1rHY6gn357uS5zgwr",
+      "initialPrice": 290,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "9hRtC7LpWPBVXPkxXdwP7mabXbcb6Em9e3vdZErEdwre",
+      "initialPrice": 300,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "8MwRFZtJmSqhz593Ka8nma21Gq83TDV8v3FC8bkjQz5W",
+      "initialPrice": 300,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "G1pMJuhr5hwnEbvLsLAp4rQa1uqM1tPSHFY1j77foptt",
+      "initialPrice": 340,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "89UwRcAcqB8c3pv2vvLvf6G5MZYf2DZSa5uN8X4vcKwo",
+      "initialPrice": 349.75,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "9AxjPmx8eRfUa16Fp8MGEUH13WbFVGjib5oR2pLPX4cK",
+      "initialPrice": 369.42,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "8pwPdoLjNZcqsFtjzJRSX84yraUNiRvwNprntapSU2bS",
+      "initialPrice": 400,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "84bdcyiUWRx4oU4L3UkzyjZ7T7fEg8LQTgrgS6FgKwKG",
+      "initialPrice": 400,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "9ZXin4Q9kevZepgbB9SGxhTXTGU1D2bD2tYJ8XXthWbS",
+      "initialPrice": 400,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "Gy1oRzpezVwxhJQ97WQ9rgH7YZfoU5NdXQ8Feq9Gpmqj",
+      "initialPrice": 460,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "35i6WmSJr3otFz15Vrwgps8Fdc4rnocRQALWQEuaLCP7",
+      "initialPrice": 500,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "EqqAqgMqjE1BK7qsJDrsR7HFRhzaDiQSiGr8cVD6YpDH",
+      "initialPrice": 500,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "71WvFoZYN5s9DwsisV6bEWQj8HTGuWSZPrw32WDnKj5R",
+      "initialPrice": 500,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "DEw2oDa68cRbov98vn5KtgHeZW8hJAGhs4qbvCEh1iPZ",
+      "initialPrice": 500,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "D2ZgTcpzVSNyYVo67ZMqY4BErAFmrtw3uKjePYR6uHij",
+      "initialPrice": 500,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "3VMvKRuRAkz7DFGxLRK8TTLLBydn3qd7C4cWvF5a17uq",
+      "initialPrice": 500,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "Fx5oDFCdnAv8BkQa6obKMrfYuEWPXc3nSXCjWAyK4Gxa",
+      "initialPrice": 599,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "F7pUzL8B6rejquzB1Ps6cnZ6riarBDkprFpQBvLPVzBC",
+      "initialPrice": 630.74,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "HQ8tp7MH6MRXUHU2DZ8pJ9xU3CJnQkvBeR96yH5MvaJL",
+      "initialPrice": 645,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "7bv5hXd5Ym4fL1vJRDnxE65S3KBZffjJdjRsKELSbKuZ",
+      "initialPrice": 728.18,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "8ai97us37fSc3Z8Prh6Hyn92cPzpyozfGEGn9zHcdyfG",
+      "initialPrice": 750,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "2XugbT2rk4aEV3RxDvvpKrEmq3okCXYgrj5t1h3N11UQ",
+      "initialPrice": 750,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "8Cm3Pojz7CNn9trCA28q3ekyGrc5MDe4DBcw5oXC26KS",
+      "initialPrice": 769,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "12uLSEkTgSMvSS9rRXJyCdFXHhdfseAToqtUgzERXok5",
+      "initialPrice": 798,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "DD6Qwd78o6fDawR9sZaiJdESdRWwYRr5W6uB28dCF2L9",
+      "initialPrice": 800,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "4s1H9wJMhpFSBNgR4XsLwYpbm5wK3q5Xu86RicJDavjA",
+      "initialPrice": 840.95,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "C1waXkGocGTaupTDSe2VmrQ1kCyhVFMcgKYwonWQS2Tw",
+      "initialPrice": 898.77,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "hNqtmSwuKFekAmquo24xA7MB7a9uWMyJMLceX7cbqXQ",
+      "initialPrice": 969,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "2X7Mb6UnL5e6knztn6epMTLe5CqLbxHru4Mg5w4xSPRx",
+      "initialPrice": 988,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "U9CTGCyjBn788inoNLUhetWyGK7NATGYj9hENPVfEzE",
+      "initialPrice": 1200,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "GB1XD8pMQpky3JKi6BJBPdJa7m1Pi5TBUB451ngRqpsq",
+      "initialPrice": 2000,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "BKq5dmv3LtKQAMpAaAFhweVT6Bnxy15roxR9jCfkwumF",
+      "initialPrice": 2400,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "6vJM43QBUAy2rNjbHVS9GWaJBFjHn5eJvJaQxHkzCX5u",
+      "initialPrice": 5000,
+      "nftCount": 1,
+      "type": "ask"
+    },
+    {
+      "pubkey": "7PyLpN69YXc2i452496wzcqpLdpXs1N8tLSeSCmkzGyg",
+      "initialPrice": 9000,
+      "nftCount": 1,
+      "type": "ask"
+    }
+  ]
+}

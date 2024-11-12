@@ -49,7 +49,7 @@ export const makeCollectionOrderbook = async ({
   // TODO: also use mm orders from pools
   const { bids } = await getPools(conn, swapSdk, collectionUuid);
 
-  writeFile("./bids.json", JSON.stringify(bids, null, 2), (err) => {});
+  // writeFile("./examples/raw-bids.json", JSON.stringify(bids, null, 2), (err) => {});
 
   let listings: SingleListing[] = [];
   if (withListings) {

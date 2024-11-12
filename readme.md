@@ -55,6 +55,7 @@ type Order = GroupedOrder & {
  - [ ] Ensure MM orders (pools)
  - [ ] Release as NPM package *
  - [ ] Event-based orderbook updates (significant speedup and reducing rpc requests) *
+ - [ ] Using with DBs, example (PostgresQL + Prisma) *
  - [ ] Floor price, sweeps and sells alerts Telegram bot as real-world example *
 
 
