@@ -34,6 +34,4 @@ export const shiftPriceByDeltaArr = (
   delta: Big,
   direction: "up" | "down",
   times: number
-) => {
-  return Array.from({ length: times }, (_, i) => shiftPriceByDelta(curveType, startingPrice, delta, direction, i + 1));
-};
+) => Array.from({ length: times }, (_, i) => shiftPriceByDelta(curveType, startingPrice, delta, direction, i + 1));
