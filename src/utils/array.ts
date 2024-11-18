@@ -1,17 +1,22 @@
 export const chunkArrayInGroups = <T>(arr: T[], size: number): T[][] => {
-  const result = [];
-  let temp = [];
+  if (size <= 0) {
+    throw new Error("Size must be a positive number.");
+  }
 
-  for (let a = 0; a < arr.length; a++) {
-    // @ts-ignore
-    temp.push(arr[a]);
-    if (a % size === size - 1) {
-      // @ts-ignore
+  const result: T[][] = [];
+  let temp: T[] = [];
+
+  arr.forEach((item, index) => {
+    temp.push(item);
+    if ((index + 1) % size === 0) {
       result.push(temp);
       temp = [];
     }
+  });
+
+  if (temp.length > 0) {
+    result.push(temp);
   }
-  // @ts-ignore
-  if (temp.length > 0) result.push(temp);
+
   return result;
 };

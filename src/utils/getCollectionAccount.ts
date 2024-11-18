@@ -24,11 +24,3 @@ export const getCollectionAccountFromUuid = async (
   const wl = await wlSdk.fetchWhitelist(whitelist);
   return wl.voc || null;
 };
-
-// (async function () {
-//   const collectionAccount = await getCollectionAccountFromNftMint(
-//     new PublicKey("AZHVLDhX76wf6na7Nk6YFAHoqfSkxCTkHXQTnbGzzWAZ"), // madlad
-//     conn
-//   );
-//   console.log(collectionAccount);
-// })();
