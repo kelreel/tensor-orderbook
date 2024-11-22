@@ -1,11 +1,11 @@
-import { Account, AccountInfo, Connection, LAMPORTS_PER_SOL, PublicKey } from "@solana/web3.js";
+import { AccountInfo, Connection, LAMPORTS_PER_SOL, PublicKey } from "@solana/web3.js";
 import { chunkArrayInGroups } from "./array";
 
 export const getLamportsSolBalances = async (
   accounts: PublicKey[],
   conn: Connection
 ): Promise<Record<string, number>> => {
-  // TODO: ensure we don't hit rate limits and filter duplicates
+  accounts = [...new Set(accounts)];
   const chunks = chunkArrayInGroups(accounts, 100);
 
   const balancesArr: Array<AccountInfo<Buffer> & { pubkey: PublicKey }> = [];

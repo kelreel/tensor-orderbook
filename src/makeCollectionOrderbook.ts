@@ -2,7 +2,6 @@ import { Connection, PublicKey } from "@solana/web3.js";
 import { TensorSwapSDK, TensorWhitelistSDK } from "@tensor-oss/tensorswap-sdk";
 import { getPools } from "./getPools";
 import { getSingleListings, SingleListing } from "./getSingleListings";
-import { writeFile } from "fs";
 
 type OrderType = "bid" | "ask";
 
@@ -48,8 +47,6 @@ export const makeCollectionOrderbook = async ({
 }: Params): Promise<Orderbook> => {
   // TODO: also use mm orders from pools
   const { bids } = await getPools(conn, swapSdk, collectionUuid);
-
-  // writeFile("./examples/raw-bids.json", JSON.stringify(bids, null, 2), (err) => {});
 
   let listings: SingleListing[] = [];
   if (withListings) {

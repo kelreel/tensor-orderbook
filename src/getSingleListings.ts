@@ -27,6 +27,8 @@ export const getSingleListings = async ({ conn, swapSdk, wlSdk, collectionUuid }
 
   console.log("fetching listings... it may take a while");
 
+  // TODO: also parse TComp bids (v2 migration)
+
   // offset 8 - owner,
   // offset 40 - nftMint
   const accounts = await conn.getParsedProgramAccounts(TSWAP_PROGRAM_ID, {
@@ -64,7 +66,7 @@ export const getSingleListings = async ({ conn, swapSdk, wlSdk, collectionUuid }
 
   startDate = performance.now();
 
-  // TODO: ensure and fetch only used mints
+  // TODO: fetch only used mints
   // see https://discord.com/channels/953488546608599071/1032404803365642331/1305642380325556365
 
   const nftMints = new Set(await getAllMints(collectionAccount));
