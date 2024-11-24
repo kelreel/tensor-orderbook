@@ -1,5 +1,5 @@
 import { BN } from "@coral-xyz/anchor";
-import { getLamportsSolBalances, shiftPriceByDelta, shiftPriceByDeltaArr } from "./utils";
+import { getLamportsSolBalances, getWhitelistByUuid, shiftPriceByDelta, shiftPriceByDeltaArr } from "./utils";
 import {
   castPoolConfigAnchor,
   computeMakerAmountCount,
@@ -49,9 +49,7 @@ export const getPools = async (
   listings: PoolAnchor[];
 }> => {
   let startDate = performance.now();
-
-  const uuidArray = Buffer.from(collectionUuid.replaceAll("-", "")).toJSON().data;
-  const whitelist = findWhitelistPDA({ uuid: uuidArray })[0];
+  const whitelist = getWhitelistByUuid(collectionUuid);
 
   console.log("Whitelist:", whitelist.toBase58());
   console.log("Fetching pools...");
