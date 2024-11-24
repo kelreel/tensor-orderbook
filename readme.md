@@ -58,11 +58,10 @@ type Order = {
 ### Roadmap
  - [x] Fetch collection bids, listings and floor price
  - [x] Collection orderbook init from scratch (up to ~1min)
- - [ ] Optionally hide trait bids
- - [ ] Processing of NFTs purchases and sales based on onchain data
- - [ ] Ensure MM orders (pools)
+ - [ ] NFTs purchases and sales indexing
+ - [ ] MM orders (pools) support
  - [ ] Release as NPM package *
- - [ ] Event-based orderbook updates (significant speedup and reducing rpc requests) *
+ - [ ] Event-based orderbook updates (significant speedup and reducing rpc requests, WIP)*
  - [ ] Using with DBs, example (PostgresQL + Prisma) *
  - [ ] Floor price, sweeps and sells alerts Telegram bot as real-world example *
 
