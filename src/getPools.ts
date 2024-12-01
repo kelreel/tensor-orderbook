@@ -4,7 +4,6 @@ import {
   castPoolConfigAnchor,
   computeMakerAmountCount,
   CurveType,
-  findWhitelistPDA,
   HUNDRED_PCT_BPS,
   PoolAnchor,
   PoolConfigAnchor,

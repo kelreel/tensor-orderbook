@@ -19,8 +19,6 @@ export const getCollectionAccountFromUuid = async (
 ): Promise<PublicKey | null> => {
   const whitelist = getWhitelistByUuid(uuid);
 
-  console.log(`Tensor WL account`, whitelist.toBase58());
-
   const wl = await wlSdk.fetchWhitelist(whitelist);
   return wl.voc || null;
 };

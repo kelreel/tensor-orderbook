@@ -18,6 +18,7 @@ export type SingleListing = {
 
 export const getSingleListings = async ({ conn, swapSdk, wlSdk, collectionUuid }: Params): Promise<SingleListing[]> => {
   let startDate = performance.now();
+
   const collectionAccount = await getCollectionAccountFromUuid(collectionUuid, wlSdk);
   console.log(`Collection acc: ${collectionAccount?.toBase58()}`);
 

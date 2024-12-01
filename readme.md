@@ -50,11 +50,6 @@ type Order = {
 };
 ```
 
-<!-- <div align="center">
-  <img width="360px" src="./docs/screen1.png" alt="orderbook">
-</div>
-<br /> -->
-
 ### Roadmap
  - [x] Fetch collection bids, listings and floor price
  - [x] Collection orderbook init from scratch (up to ~1min)
