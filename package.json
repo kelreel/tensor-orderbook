@@ -18,6 +18,7 @@
     "@metaplex-foundation/umi": "^0.9.2",
     "@metaplex-foundation/umi-bundle-defaults": "^0.9.2",
     "@solana/web3.js": "^1.93.2",
+    "@tensor-foundation/marketplace": "^0.6.0",
     "@tensor-hq/tensor-common": "^8.0.8",
     "@tensor-oss/tcomp-sdk": "^6.0.0",
     "@tensor-oss/tensorswap-sdk": "^4.5.0",

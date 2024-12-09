@@ -1,8 +1,8 @@
 import { Connection, PublicKey } from "@solana/web3.js";
-import { TENSORSWAP_ADDR, TensorSwapSDK, TensorWhitelistSDK } from "@tensor-oss/tensorswap-sdk";
+import { TensorSwapSDK, TensorWhitelistSDK } from "@tensor-oss/tensorswap-sdk";
+import { writeFile } from "fs";
 import { conn, swapSdk, wlSdk } from "./common";
 import { COLLECTION_UUID, getWhitelistByUuid } from "./utils";
-import { writeFile } from "fs";
 
 type Params = {
   conn: Connection;
