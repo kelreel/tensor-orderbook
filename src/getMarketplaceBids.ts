@@ -1,7 +1,5 @@
 import { Connection, PublicKey } from "@solana/web3.js";
-import { COLLECTION_UUID, getWhitelistByUuid } from "./utils";
-import { conn } from "./common";
-import { writeFile } from "fs";
+import { getWhitelistByUuid } from "./utils";
 
 const TensorCNFT = new PublicKey(`TCMPhJdwDryooaGtiocG1u3xcYbRpiJzb283XfCZsDp`);
 
@@ -22,8 +20,3 @@ export const getMarketplaceBids = async (conn: Connection, collectionUuid: strin
     ],
   });
 };
-
-// getMarketplaceBids(conn, COLLECTION_UUID.PROJECT89).then((data) => {
-//   console.log(data);
-//   writeFile("bids.json", JSON.stringify(data, null, 2), (err) => {});
-// });
