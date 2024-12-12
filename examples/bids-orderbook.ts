@@ -2,6 +2,7 @@ import { writeFile } from "fs";
 import { COLLECTION_UUID, makeCollectionOrderbook } from "../src";
 import { conn, swapSdk, wlSdk } from "../src/common";
 
+
 const main = async () => {
   const orderbook = await makeCollectionOrderbook({
     conn,

@@ -1,11 +1,13 @@
 import { CurveType, HUNDRED_PCT_BPS } from "@tensor-oss/tensorswap-sdk";
 import Big from "big.js";
 
+type Direction = "up" | "down";
+
 export const shiftPriceByDelta = (
   curveType: CurveType,
   startingPrice: Big,
   delta: Big,
-  direction: "up" | "down",
+  direction: Direction,
   times: number
 ): Big => {
   switch (curveType) {
@@ -32,6 +34,12 @@ export const shiftPriceByDeltaArr = (
   curveType: CurveType,
   startingPrice: Big,
   delta: Big,
-  direction: "up" | "down",
+  direction: Direction,
   times: number
-) => Array.from({ length: times }, (_, i) => shiftPriceByDelta(curveType, startingPrice, delta, direction, i + 1));
+): Big[] => {
+  const prices: Big[] = [];
+  for (let i = 1; i <= times; i++) {
+    prices.push(shiftPriceByDelta(curveType, startingPrice, delta, direction, i));
+  }
+  return prices;
+}

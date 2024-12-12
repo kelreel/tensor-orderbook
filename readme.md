@@ -11,6 +11,9 @@ Make TensorSwap orderbook from onchain data (without Tensor API key) with NodeJS
 > The project is at the initial stage of development. Feel free to contribute. The API is unstable and may be inaccurate.
 > This is an unofficial Tensor project.
 
+> [!NOTE]
+> Now some of the collections are already using the new V2 programs (Marketplace, AMM). Integratoion is WIP.
+
 You can use this repository as an example of implementing your Tensor-based projects.
 
 You will need to Solana RPC with Metaplex DAS support (optional), e.g Helius (a free plan is fine).

@@ -1,6 +1,6 @@
 import { Metaplex, PublicKey } from "@metaplex-foundation/js";
 import { Connection } from "@solana/web3.js";
-import { findWhitelistPDA, TensorWhitelistSDK } from "@tensor-oss/tensorswap-sdk";
+import { TensorWhitelistSDK } from "@tensor-oss/tensorswap-sdk";
 import { getWhitelistByUuid } from "./getWhitelistByUuid";
 
 export const getCollectionAccountFromNftMint = async (
